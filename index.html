@@ -1,0 +1,733 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+   <!--<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">-->
+   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, target-densityDpi=device-dpi" />
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no,minimum-scale=1.0,  maximum-scale=1.0"> -->
+<!--<meta name="viewport" content="height=device-height,width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" /> -->
+<title>Cab Aggregator</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+     <link type="text/css" rel="stylesheet" href="css/jquery.alerts.css" />
+    <link href="css/theme.css" rel="stylesheet">
+     <link type="text/css" rel="stylesheet" href="css/cropper.css" />
+
+    
+</head>
+<body onLoad="onloadbody()">
+
+
+<div class="container-fluid">
+      <!-- Start Intro Page -->
+      <section class="intro" id="splash">
+          <article class="col-xs-12">
+              <div class="content"><div class="row">
+                  <div class="col-md-4 col-sm-3 col-xs-2"></div>
+                  <!--<img class="logo img-responsive col-md-4 col-sm-6 col-xs-8 center-block " src="images/logo.png" />-->
+                  <div class="col-md-4 col-sm-3 col-xs-2"></div>
+              </div>
+              <div class="row">
+                  <div class="txtente">
+                  <p class="text-center">Thank you very much for using Dr. Cabie. By using Dr. Cabie, you can book any cab in lowest price in whole world .</p>
+                  </div>
+              </div>
+              </div>
+          </article>
+          <footer class="row">
+              <div class="col-xs-6">
+                  <button class="btn btn-pink pull-left" data-target="home"><i class="glyphicon glyphicon-hand-left"></i>Skip</button>
+              </div>
+              <div class="col-xs-6">
+                  <button class="btn intrologin  btn-pink pull-right" data-target="login"><i class="glyphicon glyphicon-user"></i>Login</button>
+              </div>
+          </footer>
+      </section>
+      <!-- End Intro Page -->
+      
+      <!-- Start Home Page -->
+      <section id="home" >
+          <header class="row">
+              <h4 class="text-center">Home</h4>
+          </header>
+          <article class="col-xs-12">   
+              <div class="content">
+            
+              <div class="row topgapr">
+                  <div class="col-md-4 col-sm-4 col-xs-3"></div>
+                <!--  <img class="logo col-md-4 col-sm-4 col-xs-6 topgapr" src="images/logo.png" />-->
+                  <div class="col-md-4 col-sm-4 col-xs-3"></div>
+              </div>
+              <div class="txtente">
+              <div class="row">
+                  <input type=" text" class="form-control source"  placeholder="Pick Up Area" />
+              </div>
+              <div class="row">
+                  <input type=" text" class="form-control destination" placeholder="Drop Off Area" />
+              </div>
+              <div class="row">
+                  <input type="button" class="btn btn-primary now" value="Now">
+                   <input type="button" class="btn btn-primary Later" value="Later" >
+              </div>
+               <div class="row">
+                  <input type="button" class="btn btn-primary Search" value="Search Cab">
+              </div>
+            
+              </div>
+              </div>
+  
+          </article>
+          <footer class="row">
+              <div class="col-xs-4"><button class="btn btn-block select" data-target="home"><i class="glyphicon glyphicon-home"></i></button></div>
+             <!-- <div class="col-xs-3"><button onClick="capturegallery();" class="btn btn-block" data-target="#"><img src="images/icon-gallery2.png" /></button></div>
+              <div class="col-xs-3"><button class="btn btn-block " onClick="capturePhoto();" data-target="#"><span class="camera-icon"></span></button></div>-->
+              <div class="col-xs-4"><button class="btn btn-block " data-target="chat"><i class="glyphicon glyphicon-list"></i></button></div>
+              <div class="col-xs-4"><button class="btn btn-block " data-target="setting"><i class="glyphicon glyphicon-cog"></i></button></div>
+         </footer>
+      </section>
+      <!-- End Home Page -->
+      
+     
+  
+      
+      <!-- Start Chat Page -->
+      <section id="chat" >
+          <header class="row">
+              <h4 class="text-center">List</h4>
+          </header>
+          <article class="col-xs-12">
+              <div class="content">
+              <div class="row">
+             
+              </div>
+              </div>
+              
+          </article>
+          <footer class="row">
+              <div class="col-xs-4"><button class="btn btn-block " data-target="home"><i class="glyphicon glyphicon-home"></i></button></div>
+             <!--/* <div class="col-xs-3"><button onClick="capturegallery();" class="btn btn-block" data-target="#"><img src="images/icon-gallery2.png" /></button></div>
+              <div class="col-xs-3"><button class="btn btn-block " onClick="capturePhoto();" data-target="#"><span class="camera-icon"></span></button></div>*/-->
+              <div class="col-xs-4"><button class="btn btn-block select" data-target="#"><i class="glyphicon glyphicon-list"></i></button></div>
+              <div class="col-xs-4"><button class="btn btn-block " data-target="setting"><i class="glyphicon glyphicon-cog"></i></button></div>                  </footer>
+      </section>
+      <!-- End Chat Page -->
+ 
+      
+      <!-- Start Login Page -->
+      <section id="login" >
+          <header class="row">
+              <h4 class="text-center">
+                  <div class="col-xs-2">
+                  <button class="btn btn-sm btn-pink pull-left" data-target="setting"><i class="glyphicon glyphicon-circle-arrow-left"></i></button>
+                  </div>
+                  <div class="col-xs-8">
+                  Login
+                  </div>
+                  <div class="col-xs-2">&nbsp;</div>
+              </h4>
+          </header>
+          <article class="col-xs-12">
+              <div class="content">
+              <form method="post" id="loginuser" action="#">
+                  <div class="row">
+                     <input title="please enter username" type="email" required  class="form-control" placeholder="Email Address" name="username" id="username" />
+                      <span class="error">Please enter correct email address!</span>
+                  </div>
+                  <div class="row">
+                      <input title="please enter password" type="password" required class="form-control" placeholder="Password" name="password" id="password" />
+                      <span class="error">Please enter password!</span>
+                  </div>
+                  <div class="row">
+                      <input id="btn_login" class="btn btn-block  btn-pink" type="submit" value="Log In" />
+                  </div>
+              </form>
+              <div class="row">
+                  <button id="myforgotpwd"  class="btn btn-sm btn-pink2 center-block" data-target="forgotpassword">Forgot Password? click here</button>
+              </div>
+              
+              <div class="row row-black" >
+                  <button id="csignupbtn" class="btn btn-block  btn-black" data-target="signup">Sign Up</button>
+              </div>
+              
+              </div>
+              
+              
+              
+          </article>
+          <footer class="row">
+              <div class="col-xs-3"><button class="btn btn-block " data-target="home"><i class="glyphicon glyphicon-home"></i></button></div>
+              <div class="col-xs-3"><button onClick="capturegallery();" class="btn btn-block" data-target="#"><img src="images/icon-gallery2.png" /></button></div>
+              <div class="col-xs-3"><button class="btn btn-block " onClick="capturePhoto();" data-target="picText"><span class="camera-icon"></span></button></div>
+              <div class="col-xs-3"><button class="btn btn-block " data-target="chat"><span class="chat-icon"></span></button></div>
+              <div class="col-xs-3"><button class="btn btn-block select" data-target="#"><i class="glyphicon glyphicon-cog"></i></button></div>        </footer>
+      </section>
+      <!-- End Login Page -->
+      
+      
+      
+      <!-- Start forgot password Page -->
+      <section id="forgotpassword" >
+          <header class="row">
+              <h4 class="text-center">
+                  <div class="col-xs-2">
+                  <button class="btn btn-sm btn-pink pull-left" data-target="setting"><i class="glyphicon glyphicon-circle-arrow-left"></i></button>
+                  </div>
+                  <div class="col-xs-8">
+                  Forgot Password
+                  </div>
+                  <div class="col-xs-2">&nbsp;</div>
+              </h4>
+          </header>
+          <article class="col-xs-12">
+              <div class="content">
+              <form method="post" id="formforgotpwd" action="#" >
+                  <div class="row">
+                      <input title="please enter username" type="email" required  class="form-control" placeholder="Email Address" name="email" id="usseremailid" />
+                      <span class="error">Please enter your Email Address</span>
+                  </div>
+                  <div class="row">
+                      <input id="btn_forgotpassword" class="btn btn-block  btn-pink" type="submit" value="Submit" />
+                  </div>
+              </form>
+              <div class="row row-black" >
+                  <button class="btn btn-block  btn-black" data-target="login">Login</button>
+              </div>
+              </div>
+          </article>
+          <footer class="row">
+              <div class="col-xs-3"><button class="btn btn-block " data-target="home"><i class="glyphicon glyphicon-home"></i></button></div>
+              <div class="col-xs-3"><button onClick="capturegallery();" class="btn btn-block" data-target="#"><img src="images/icon-gallery2.png" /></button></div>
+              <div class="col-xs-3"><button class="btn btn-block " onClick="capturePhoto();" data-target="#"><span class="camera-icon"></span></button></div>
+              <div class="col-xs-3"><button class="btn btn-block " data-target="chat"><span class="chat-icon"></span></button></div>
+              <div class="col-xs-3"><button class="btn btn-block select" data-target="#"><i class="glyphicon glyphicon-cog"></i></button></div>        </footer>
+      </section>
+      <!-- End forgot password Page -->
+      
+      
+      <!-- Start reset password Page -->
+      <section id="resetPassword" >
+          <header class="row">
+              <h4 class="text-center">
+                  <div class="col-xs-1">
+                      <button class="btn btn-sm btn-pink pull-left" data-target="setting"><i class="glyphicon glyphicon-circle-arrow-left"></i></button>
+                  </div>
+                  <div class="col-xs-10">
+                      Reset Password
+                  </div>
+                  <div class="col-xs-1">&nbsp;</div>
+              </h4>
+          </header>
+          <article class="col-xs-12">
+              <div class="content">
+                  <form method="post" id="formresetpwd" action="#" >
+                      <div class="row">
+                          <input title="please enter current password" type="password" required  class="form-control" placeholder="Current Password" name="actual_password" id="oldpassword" />
+                          <span class="error">Please enter your current password</span>
+                      </div>
+                      <div class="row">
+                          <input title="please enter new password" type="password" required  class="form-control" placeholder="New Password" name="new_password" id="newpassword" />
+                          <span class="error">Please enter your new password</span>
+                      </div>
+                      <div class="row">
+                          <input title="please enter confirm password" type="password" required  class="form-control" placeholder="Confirm New Password" name="cnewpassword" id="cnewpassword" />
+                          <span class="error">Password does not match </span>
+                      </div>
+                      <div class="row">
+                          <input type="hidden" class="form-control" name="user_id" id="pwd_user_id" />
+                          <input id="btn_resetpassword" class="btn btn-block  btn-pink" type="submit" value="Submit" />
+                      </div>
+                  </form>
+                  
+              </div>
+          </article>
+          <footer class="row">
+              <div class="col-xs-3"><button class="btn btn-block " data-target="home"><i class="glyphicon glyphicon-home"></i></button></div>
+              <div class="col-xs-3"><button onClick="capturegallery();" class="btn btn-block" data-target="#"><img src="images/icon-gallery2.png" /></button></div>
+              <div class="col-xs-3"><button class="btn btn-block " onClick="capturePhoto();" data-target="#"><span class="camera-icon"></span></button></div>
+              <div class="col-xs-3"><button class="btn btn-block " data-target="chat"><span class="chat-icon"></span></button></div>
+              <div class="col-xs-3"><button class="btn btn-block select" data-target="#"><i class="glyphicon glyphicon-cog"></i></button></div>        </footer>
+      </section>
+      <!-- End reset password Page -->
+      
+      
+      
+      <!-- Start signup Page -->
+      <section id="signup" >
+           <form class="form-horizontal" id="registeruser" method="post" action="#"  enctype="multipart/form-data">
+          <header class="row">
+              <h4 class="text-center">
+                  <div class="col-xs-2">
+                     <a id="profileback" href="javascript:;" class="btn btn-sm btn-pink pull-left" data-target="login"><i class="glyphicon glyphicon-circle-arrow-left"></i></a>
+                  </div>
+                  <div class="col-xs-8">
+                      Sign Up
+                      </div>
+                  <div class="col-xs-2">
+                       <input id="btn-submit" type="submit" class="btn btn-sm pull-right btn-send" value="Save" />
+                  </div>
+                  <!--<button class="btn btn-sm pull-right btn-send" data-target="#">Save</button>-->
+              </h4>
+          </header>
+          <article class="col-xs-12">
+              <div class="content">
+              <div class="row">
+                  <p class="text-center"><strong>Please, register to chat with  Members nearby</strong></p>
+              </div>
+             
+                  <div class="form-group">
+                      <div class="col-xs-12">
+                          <div id="afteruserimgt">
+                              <img class="center-block"  src="images/no-image.jpg" />
+                          </div>
+                          <div class="fortoppic">
+                             <!--<input onchange="handleFiles(this)" required title="+ Add your picture" id="profile_picture" name="profile_picture" type="file" />-->
+                              <input onchange="handleFiles(this)" accept="image/*" capture required title="+ Add your picture" id="profile_picture" name="profile_picture" type="file" />
+                             <div id="erroruserpic" class="error">Please select your pic</div>
+                          </div>
+                          
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="col-xs-12">
+                          <div class="rbbtnmg">
+                              <label  class="radio-inline" ><input required value="M" id="gendermale" name="gender" type="radio" /><span>Male</span></label>
+                              <label class="radio-inline"><input name="gender" id="genderfemale" type="radio" value="F"/><span>Female</span></label>
+                              <div class="error">Please select your gender</div>
+                          </div>
+                      </div>
+                      
+                  </div>
+                  <div class="form-group">
+                      <div class="col-xs-12">
+                          <input  title="please enter your first name"   id="first_name" name="first_name" type="text" class="form-control" placeholder="First Name" />
+                          <div class="error">Please enter your first Name</div>
+                          <div class="error2">First Name should be atleast 2 character long.</div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="col-xs-12">
+                          <input required title="please enter your last name" id="last_name" name="last_name" type="text" class="form-control" placeholder="Last Name" />
+                          <div class="error">Please enter your Last name</div>
+                          <div class="error2">Last Name should be atleast 2 character long.</div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="col-xs-12">
+                          <input required  title="please enter your email address" id="email" name="email" type="email" class="form-control" placeholder="Email" />
+                          <div class="error">Please enter correct your Email Address</div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="col-xs-12">
+                          
+                          <input title="please enter your password"  id="password" name="password" type="password" class="form-control" placeholder="Password" />
+                          <div class="error">Please enter your password</div>
+                          <div class="error2">Password should be atleast 2 character long.</div>
+                      </div>
+                  </div>
+                  
+                  <div class="form-group">
+                     <div class="col-xs-12">
+                         <div class="txtdob">Select Profile Language</div>
+                      <select id="selectmylang" name="selectmylang" class="form-control">
+                         <option value="eng" >English</option>
+                         <option value="fra">French</option>
+                        <!-- <option value="chi_tra">Chinese</option>
+                         <option value="jpn">Japanese</option>-->
+                      </select>
+                      
+                     </div>
+                  </div>
+                  
+                  <div class="form-group">
+                      <div class="col-xs-12">
+                          <div class="txtdob">Date of Birth</div>
+                         <input required placeholder="Date of Birth" value="2000-10-11" name="dob" type="date" id="dob"  class="form-control" />
+                          <div class="error">Please enter your Date of Birth</div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="col-xs-12">
+                          <div class="ui-widget">
+                          <select placeholder="Select your Nationality" id="country_id" name="country_id" class="form-control hasautoc">
+                              <option selected disabled value="">Select your Nationality</option>
+                              
+                          </select>
+                          
+                          <div class="error">Please select your country</div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="col-xs-12">
+                          <div class="ui-widget">
+                          <select placeholder="Select your Country of Residence"  id="residence_country_id" name="residence_country_id" class="form-control hasautor">
+                              <option selected disabled value=""> Select your Country of Residence</option>
+                              
+                          </select>
+                           <div class="error">Please select country of residence</div>
+                          </div>
+                         
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="col-xs-12">
+                          <select required title="please enter your Job Function" id="profession_id" name="profession_id" class="form-control">
+                              <option selected disabled value=""> Select your Job Function</option>
+                              
+                          </select>
+                          <div class="error">Please select Job Function</div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="col-xs-12">
+                          <select required title="please enter your experience level" id="activity_id" name="activity_id" class="form-control">
+                              <option selected disabled value="">Select your Experience Level</option>
+                              
+                          </select>
+                          <div class="error">Please select experience level</div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="col-xs-12">
+                          <select required title="please enter your Industry" id="industry_id" name="industry_id" class="form-control">
+                              <option selected disabled value=""> Select your Industry</option>
+                              
+                          </select>
+                          <div class="error">Please select industry</div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-xs-12">
+                          <input type="hidden" id="latitude" name="latitude" value="00" />
+                          <input type="hidden" id="longitude" name="longitude" value="00" />
+                          
+                      </div>
+                  </div>
+              </form>
+              </div>
+          </article>
+          <footer class="row">
+              <div class="col-xs-3"><button class="btn btn-block " data-target="home"><i class="glyphicon glyphicon-home"></i></button></div>
+              <div class="col-xs-3"><button onClick="capturegallery();" class="btn btn-block" data-target="#"><img src="images/icon-gallery2.png" /></button></div>
+              <div class="col-xs-3"><button class="btn btn-block " onClick="capturePhoto();" data-target="#"><span class="camera-icon"></span></button></div>
+              <div class="col-xs-3"><button class="btn btn-block " data-target="chat"><span class="chat-icon"></span></button></div>
+              <div class="col-xs-3"><button class="btn btn-block select" data-target="#"><i class="glyphicon glyphicon-cog"></i></button></div>         </footer>
+      </section>
+      <!-- End Sign Up Page -->
+      
+      
+      <!-- start profile page --->
+      <section id="profile" >
+          <form class="form-horizontal" id="updateuserdetail" method="post" action="#"  enctype="multipart/form-data">
+              <header class="row">
+                  <h4 class="text-center">
+                      <div class="col-xs-2">
+                        <a id="profileback" href="javascript:;" class="btn btn-sm btn-pink pull-left" data-target="setting"><i class="glyphicon glyphicon-circle-arrow-left"></i></a>
+                      </div>
+                      <div class="col-xs-8">
+                          Profile
+                      </div>
+                      <div class="col-xs-2">
+                           <input type="submit" class="btn btn-sm pull-right btn-send" value="Save" />
+                      </div>
+                </h4>
+              </header>
+              <article class="col-xs-12">
+                  <div class="content">
+                  <div class="row">
+                      <!--  <p><strong>Please, register to chat with  Members nearby</strong></p>-->
+                  </div>
+                  
+                  <div class="form-group">
+                      <div class="col-xs-12">
+                          <div id="afteruserimgt2">
+                               <img src="images/no-image.jpg" class="center-block" id="getimg" />
+                          </div>
+                          <input  onchange="handleFiles2(this)" title="Change your picture" id="profile_picture" name="profile_picture" type="file" />
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="col-xs-12">
+                          <div class="rbbtnmg">
+                          <label  class="radio-inline"><input required value="M" id="gender_male" name="gender" type="radio" /><span>Male</span></label>
+                          <label class="radio-inline"><input name="gender" id="gender_female" type="radio" value="F"/><span>Female</span></label>
+                      </div>
+                          </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="col-xs-12">
+                          <input required title="please enter your first name"   id="f_name" name="first_name" type="text" class="form-control" placeholder="First Name" />
+                          <div class="error">Please enter your first Name</div>
+                          <div class="error2">First Name should be atleast 2 character long.</div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="col-xs-12">
+                          <input required title="please enter your last name" id="l_name" name="last_name" type="text" class="form-control" placeholder="Last Name" />
+                          <div class="error">Please enter your Last Name</div>
+                          <div class="error2">Last Name should be atleast 2 character long.</div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="col-xs-12">
+                          <input readonly  title="please enter your email address" id="email_id" name="email" type="email" class="form-control" placeholder="Email Address" />
+                      </div>
+                  </div>
+                  
+                  <div class="form-group">
+                     <div class="col-xs-12">
+                       <div class="txtdob">Select Profile Language</div>   
+                      <select class="form-control" name="selectmylang" id="select_mylang">
+                         <option value="eng">English</option>
+                         <option value="fra">French</option>
+                        <!-- <option value="chi_tra">Chinese</option>
+                         <option value="jpn">Japanese</option>-->
+                      </select>
+                      
+                     </div>
+                  </div>
+                  
+                  <div class="form-group">
+                      
+                      <div class="col-xs-12">
+                          <div class="txtdob">Date of Birth</div>
+                          <input required title="please enter your date of birth"  name="dob" type="date" id="date_of_birth"  class="form-control" placeholder="DD:MM:YY" />
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="col-xs-12">
+                          <div class="ui-widget">
+                          <select placeholder="Select your nationality"  id="country_name" name="country_id" class="form-control hasautoc">
+                              
+                              
+                          </select>
+                          <div class="error">Please select your country</div>
+                          </div>
+                          <!-- <span class="error"><i class="glyphicon glyphicon-warning-sign"></i>please select your country</span>-->
+                      </div>
+                  </div>
+                  <div class="form-group">
+                     
+                      <div class="col-xs-12">
+                          <div class="ui-widget">
+                          <select placeholder="Select your country of Residence" id="residence_countryid" name="residence_country_id" class="form-control hasautoc">
+                              
+                              
+                          </select>
+                          <div class="error">Please select your country of Residence</div>
+                          </div>
+                          <!-- <span class="error">please select country of residence</span>-->
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="col-xs-12">
+                          <select required title="please enter your Job Function" id="professionid" name="profession_id" class="form-control">
+                              
+                              
+                          </select>
+                          <!-- <span class="error">please select Job Function</span>-->
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="col-xs-12">
+                          <select required title="please enter your experience level" id="activityid" name="activity_id" class="form-control">
+                              
+                              
+                          </select>
+                          <!-- <span class="error">please select experience level</span>-->
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="col-xs-12">
+                          <select required title="please enter your Industry" id="industryid" name="industry_id" class="form-control">
+                              
+                              
+                          </select>
+                          <!-- <span class="error">please select industry</span>-->
+                      </div>
+                  </div>
+                  <!--  <div class="row">
+                   <div class="col-xs-4">
+                   <input type="hidden" id="latitude" name="latitude" />
+                   <input type="hidden" id="longitude" name="longitude" />
+                   
+                   </div>
+                   <div class="col-xs-4"><input id="btn-submit" type="submit" class="btn btn-sm btn-success btn-block" value="Sign Up" /></div>
+                   <div class="col-xs-4"></div>
+                   </div>-->
+                  
+          </div>
+          </article>
+           </form>   
+          <footer class="row">
+              <div class="col-xs-3"><button class="btn btn-block " data-target="home"><i class="glyphicon glyphicon-home"></i></button></div>
+              <div class="col-xs-3"><button onClick="capturegallery();" class="btn btn-block" data-target="#"><img src="images/icon-gallery2.png" /></button></div>
+              <div class="col-xs-3"><button class="btn btn-block " onClick="capturePhoto();" data-target="#"><span class="camera-icon"></span></button></div>
+              <div class="col-xs-3"><button class="btn btn-block " data-target="chat"><span class="chat-icon"></span></button></div>
+              <div class="col-xs-3"><button class="btn btn-block select" data-target="#"><i class="glyphicon glyphicon-cog"></i></button></div>         </footer>
+      </section>
+      
+      
+      <!-- end profile page --->
+      
+      
+      <!-- Start Deleet Account Page -->
+      <section id="deleteaccount" >
+          <header class="row">
+              <h4 class="text-center">
+                  <div class="col-xs-2">
+                     <button class="btn btn-sm btn-pink pull-left" data-target="setting"><i class="glyphicon glyphicon-circle-arrow-left"></i></button>
+                  </div>
+                  <div class="col-xs-8">
+                     Delete Account
+                  </div>
+                  <div class="col-xs-2">&nbsp;</div>
+              </h4>
+          </header>
+          <article class="col-xs-12">
+              <div class="content">
+              <div class="row">
+                  <p>Deleting your account will do the following:</p>
+              </div>
+              <div class="row">
+                  <ul class="default">
+                      <li>Delete your account from PicMealUp</li>
+                      <li>Delete your from PicMealUp  Contact  list</li>
+                      <li>Erase your message history on your mobile device</li>
+                  </ul>
+              </div>
+              <div class="row">
+                  <button class="delete-acct btn btn-block btn-pink" data-target="#">Delete</button>
+              </div>
+              </div>
+          </article>
+          <footer class="row">
+              <div class="col-xs-3"><button class="btn btn-block " data-target="home"><i class="glyphicon glyphicon-home"></i></button></div>
+              <div class="col-xs-3"><button onClick="capturegallery();" class="btn btn-block" data-target="#"><img src="images/icon-gallery2.png" /></button></div>
+              <div class="col-xs-3"><button class="btn btn-block " onClick="capturePhoto();" data-target="#"><span class="camera-icon"></span></button></div>
+              <div class="col-xs-3"><button class="btn btn-block " data-target="chat"><span class="chat-icon"></span></button></div>
+              <div class="col-xs-3"><button class="btn btn-block select" data-target="#"><i class="glyphicon glyphicon-cog"></i></button></div>         </footer>
+      </section>
+      <!-- End Sign Up Page -->
+      
+      <!-- Start Setting Page -->
+      <section id="setting" >
+          <header class="row">
+              <h4 class="text-center">Setting</h4>
+          </header>
+          <article class="col-xs-12">
+              <div class="content">
+              <div class="row">
+                  <ul class="list-group upper">
+                    <!--  <li id="upgrade" class="list-group-item" data-target="#"><span class="upgrade-icon pull-left"></span>Upgrade to Premium: US$1.99 <br><small>Chinese and Japanese languages included. No ads</small> <i class="glyphicon glyphicon-chevron-right"></i></li>
+                      <li id="restore" class="list-group-item" data-target="#"><span class="restore-icon pull-left"></span>Restore Purchase  <i class="glyphicon glyphicon-chevron-right"></i></li>-->
+                      
+                      <li id="btn_login2" class="list-group-item" data-target="#"><span class="login-icon pull-left"></span>Login <i class="glyphicon glyphicon-chevron-right"></i></li>
+                      <li id="btn_logout" class="list-group-item " data-target="#"><span class="login-icon pull-left"></span>Logout <i class="glyphicon glyphicon-chevron-right"></i></li>
+                      <li id="getprofile" class="list-group-item disabled" data-target="#"><span class="profile-icon pull-left"></span>Profile<i class="glyphicon glyphicon-chevron-right"></i></li>
+                      <li id="deleteprofile" class="list-group-item disabled" data-target="deleteaccount"><span class="deleteaccount-icon pull-left"></span>Delete Account<i class="glyphicon glyphicon-chevron-right"></i></li>
+                      <li id="resetPasswordu" class="list-group-item disabled" data-target="#"><span class="pull-left glyphicon glyphicon-refresh"></span>Change Password<i class="glyphicon glyphicon-chevron-right"></i></li>
+                      <li class="list-group-item" data-target="tellafriend"><span class="tellafriend-icon pull-left"></span>Tell A Friend <i class="glyphicon glyphicon-chevron-right"></i></li>
+                      <li class="list-group-item" data-target="about"><span class="camera-icon2 pull-left"></span>About Cab Aggregator<i class="glyphicon glyphicon-chevron-right"></i></li>
+                  </ul>
+
+                 <!-- <p class="text-pink text-center">Miscellaneous</p>
+
+                  <ul class="list-group lower">
+                      <li class="list-group-item" data-target="tellafriend"><span class="tellafriend-icon pull-left"></span>Tell A Friend <i class="glyphicon glyphicon-chevron-right"></i></li>
+                      <li class="list-group-item" data-target="about"><span class="camera-icon2 pull-left"></span>About PicMealUp App<i class="glyphicon glyphicon-chevron-right"></i></li>
+                  </ul>-->
+              </div>
+              </div>
+          </article>
+          <footer class="row">
+              <div class="col-xs-4"><button class="btn btn-block " data-target="home"><i class="glyphicon glyphicon-home"></i></button></div>
+             <!-- <div class="col-xs-3"><button onClick="capturegallery();" class="btn btn-block" data-target="#"><img src="images/icon-gallery2.png" /></button></div>
+              <div class="col-xs-3"><button class="btn btn-block " onClick="capturePhoto();" data-target="#"><span class="camera-icon"></span></button></div>-->
+              <div class="col-xs-4"><button class="btn btn-block " data-target="chat"><i class="glyphicon glyphicon-list"></i></button></div>
+              <div class="col-xs-4"><button class="btn btn-block select" data-target="#"><i class="glyphicon glyphicon-cog"></i></button></div>         </footer>
+      </section>
+      <!-- End Setting Page -->
+      
+      <!-- Start Tell a Friend Page -->
+      <section id="tellafriend" >
+          <header class="row">
+              <h4 class="text-center">
+                  <div class="col-xs-1">
+                    <button class="btn btn-sm btn-pink pull-left" data-target="setting"><i class="glyphicon glyphicon-circle-arrow-left"></i></button>
+                  </div>
+                  <div class="col-xs-10">
+                  Tell A Friend
+                  </div>
+                  <div class="col-xs-1">&nbsp;</div>
+              </h4>
+          </header>
+          <article class="col-xs-12">
+              <div class="content">
+              <div class="row">
+                  <ul class="list-group ">
+                      <li class="list-group-item" data-target="#">
+                          <a href="mailto:?body=Hey there I am using PicMealUp"><span class="email-icon pull-left"></span>Email<i class="glyphicon glyphicon-chevron-right"></a></i>
+                      </li>
+                      <li class="list-group-item" data-target="#">
+                       <!--   <span class="messge-icon pull-left"></span>Message<i class="glyphicon glyphicon-chevron-right"></i> -->
+                       <a href="sms: ;body:Hey there I am using PicMealUp"><span class="messge-icon pull-left"></span>Message<i class="glyphicon glyphicon-chevron-right"></i></a>
+                      </li>
+                      <li class="list-group-item" data-target="#">
+              
+                         
+                         <a href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=PicMealUp','_blank','location=yes')">
+                             
+                             <span class="facebook-icon pull-left"></span>Facebook<i class="glyphicon glyphicon-chevron-right"></i>
+                         </a>
+
+                      </li>
+                      <li class="list-group-item" data-target="#">
+                          
+                          
+                        <a href="javascript:window.open('https://twitter.com/share?source=tweetbutton&text=PicMealUp&url=myurl','_blank','location=yes')">
+                            <span class="twitter-icon pull-left"></span>Twitter<i class="glyphicon glyphicon-chevron-right"></i>
+                        </a>
+                      </li>
+                      
+                  </ul>
+              </div>
+              </div>
+          </article>
+          <footer class="row">
+              <div class="col-xs-3"><button class="btn btn-block " data-target="home"><i class="glyphicon glyphicon-home"></i></button></div>
+              <div class="col-xs-3"><button onClick="capturegallery();" class="btn btn-block" data-target="#"><img src="images/icon-gallery2.png" /></button></div>
+              <div class="col-xs-3"><button class="btn btn-block " onClick="capturePhoto();" data-target="#"><span class="camera-icon"></span></button></div>
+              <div class="col-xs-3"><button class="btn btn-block " data-target="chat"><span class="chat-icon"></span></button></div>
+              <div class="col-xs-3"><button class="btn btn-block select" data-target="#"><i class="glyphicon glyphicon-cog"></i></button></div>         </footer>
+      </section>
+   
+      
+      
+  </div>
+
+<div id="branding"  style="float: left; display:none;"></div>
+  <!-- End Main container -->
+  <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+  <script src="js/jquery-ui.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js"></script> 
+  <script src="js/bootstrap.file-input.js"></script>
+  <script src="js/jquery.alerts.js" type="text/javascript"></script>
+
+ <script src="js/custom.js"></script>
+ <script>
+ $(document).ready(function(){
+			$('.Search').click(function(){
+				var source=$('.source').val();
+				var destination = $('.destination').val();
+				})				
+		
+		})
+ </script>
+  
+  
+ 
+</body>
+</html>

@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <structure>
+  
+ <popups>
+     <popupselectlanguage>
+	     <title></title>
+		 <body>
+		   <option><![CDATA[スキャンのための言語を選択してください]]></option>
+		 </body>
+         <donebtn><![CDATA[キャンセル]]></donebtn>
+	 </popupselectlanguage>
+	 
+	 <addcontact>
+	     <title><![CDATA[サクセス]]></title>
+		  <body><![CDATA[メンバーリストを連絡先に追加されました]]></body>
+	 </addcontact>
+	 
+	 <popupLoginFailed>
+	     <title><![CDATA[エラー]]></title>
+		  <body><![CDATA[無効な資格情報。もう一度やり直してください]]></body>
+	 </popupLoginFailed>
+	 
+	 <sndgrt>
+	     <title><![CDATA[サクセス]]></title>
+		 <body><![CDATA[挨拶が送られました]]></body>
+	 </sndgrt>
+	 
+	 <errorsndgrt>
+	     <title><![CDATA[エラー]]></title>
+		 <body><![CDATA[あなたの挨拶を入力してください。]]></body>
+	 </errorsndgrt>
+	 
+     <popupNetworkFailed>
+         <title><![CDATA[情報]]></title>
+         <body><![CDATA[インターネット接続が必要です。]]></body>
+     </popupNetworkFailed>
+     
+	 <clearconver>
+	     <title><![CDATA[サクセス]]></title>
+		 <body><![CDATA[全ての会話を消します]]></body>
+	 </clearconver>
+	 
+	 <popupRegisterFailed>
+	     <title><![CDATA[エラー]]></title>
+		 <body><![CDATA[登録することができません]]></body>
+	 </popupRegisterFailed>
+	 
+	 <popupOCR>
+	     <title><![CDATA[エラー]]></title>
+		 <body><![CDATA[写真の変換に失敗しました:高画質の写真を撮りなおしてください]]></body>
+	 </popupOCR>
+	 
+	 <popupregister>
+	     <title><![CDATA[サクセス]]></title>
+		 <body><![CDATA[登録に成功しました]]></body>
+	 </popupregister>
+	 
+	 <popupLogout>
+	     <title><![CDATA[サクセス]]></title>
+		 <body><![CDATA[ログアウトに成功しました]]></body>
+	 </popupLogout>
+	 
+	 <popupForgotPwd>
+	     <title><![CDATA[サクセス]]></title>
+		 <body><![CDATA[パスワードがリセットされました。新しいパスワードはあなたのメールアドレスに送られました。]]></body>
+	 </popupForgotPwd>
+	 
+	 <popupChangePwd>
+	     <title><![CDATA[サクセス]]></title>
+		 <body><![CDATA[新しいパスワードが更新されました]]></body>
+	 </popupChangePwd>
+	 
+	 <popupChangeFailPwd>
+	     <title><![CDATA[エラー]]></title>
+		 <body><![CDATA[今現在のパスワードと一致しません]]></body>
+	 </popupChangeFailPwd>
+	 
+	 <popupproblem_error>
+	     <title><![CDATA[エラー]]></title>
+		 <body><![CDATA[あなたの問題を記述してください。]]></body>
+	 </popupproblem_error>
+	 
+	 <popupproblem_success>
+	     <title><![CDATA[サクセス]]></title>
+		 <body><![CDATA[あなたのコメントが投稿されました]]></body>
+	 </popupproblem_success>
+	 
+	 <popupdleteacct>
+	     <title><![CDATA[サクセス]]></title>
+		 <body><![CDATA[アカウントが削除されました]]></body>
+	 </popupdleteacct>
+	 
+	 <popupEmailFound>
+	     <title><![CDATA[エラー]]></title>
+		 <body><![CDATA[メールアドレスは既に存在します]]></body>
+	 </popupEmailFound>
+	 
+	 
+  </popups>
+ <splashContent><![CDATA[<p>どうもありがとうございました。PicMealUpを使用することで、あなたもチャリティプロジェクトをサポートしている <a href="javascript;;">www.breakfastforsmile.com</a>.
+     確かに、私たちはPicMealUpの有料版や広告モデルを起動して、近い将来に発生するために収益を計画しています。そして後に、私たちはサポートするために収入の20％を与えることをコミット <a href="javascript;;">www.breakfastforsmile.com</a></p>
+     <p>あなたがPicMealUpコミュニティに参加したい場合は、アカウントを作成し、他のメンバーと対話しないでください.</p>]]></splashContent>
+ <section>
+  <splash>
+      <paragraph class="text-center"><![CDATA[PicMealUp をご利用頂きまして誠にありがとうございます。
+お支払いの一部（20%）はNGO project- www.breakfastforsmile.com. に支援させて頂きます。]]></paragraph> 
+	  <paragraph class="text-center"><![CDATA[PicMealUpCommunityに参加するには、ログインをして頂くか新規登録してアカウントを作成してください。]]></paragraph> 
+	  <footer>
+	     <skipbtn><![CDATA[スキップ]]></skipbtn>
+	     <loginbtn><![CDATA[ログイン]]></loginbtn>
+	  </footer>
+  </splash>
+  
+  <home>
+       <title><![CDATA[ホーム]]></title>
+	<paragraph class="text-center"><![CDATA[PicMealUpは外国語のレストランメニューを画像に変換し、文字がわからなくても、食べたいものをオーダーすることが出来ます。]]></paragraph> 
+	<paragraph class="text-bold"><![CDATA[<strong>PicMealUpを使用するのはシンプルです。</strong>]]></paragraph> 
+	<lists class="default">
+			<list><![CDATA[メニュー（文字）を写真に撮る]]></list>
+			<list><![CDATA[メニューの文字をセレクトとし、「検索&実行」を押せば、文字に関連する画像が検索されます]]></list>
+			<list><![CDATA[画像を見て確かめ、オーダーリストに入れるだけ　]]></list>
+	</lists>
+  </home>
+
+  <picmeal>
+       <title><![CDATA[ピック食事]]></title>
+	<paragraph class="text-left"><![CDATA[PicMealUpを使用するためのありがとうございました。]]></paragraph> 
+	<paragraph><![CDATA[PicMealUpを使用することで、あなたもNGOのプロジェクトwww.breakfastforsmile.comを支援しています。確かに、私たちは笑顔のために朝食の収入の20％を与えることをコミット]]></paragraph> 
+  </picmeal>
+  
+  <camerapic>
+       <title><![CDATA[Crop Image]]></title>
+	   <infotext><![CDATA[認識中...</br>は1分ほどかかる場合があります）]]></infotext>
+	   <button>
+	   <newpicbtn><![CDATA[<img src="images/camera-icon.png" />新しい写真を撮る]]></newpicbtn>
+	   <choosepicbtn><![CDATA[<img class="img2" src="images/small-gallery-icon.png" />今現在表示されている写真を選ぶ]]></choosepicbtn>
+	   <scanbtn><![CDATA[<i class="glyphicon glyphicon-search absearch" ></i>スキャン&サーチ]]></scanbtn>
+	   <langbtn><![CDATA[<i class="glyphicon glyphicon-book absearch" ></i>言語を選んでください]]></langbtn>
+	   </button>
+  </camerapic>
+  
+  <picText>
+    <choosepicbtn><![CDATA[今現在表示されている写真を選ぶ]]></choosepicbtn>
+  </picText>
+  
+  <picHelp>
+     <title><![CDATA[ヘルプ]]></title>
+	 <paragraph class="helptext0"><![CDATA[<strong>最良の結果を得るために</strong>]]></paragraph>
+	 <olists class="helplist0">
+			<list><![CDATA[テキストが良い照明や影のない、平らな面になっていることを確認します。 ]]></list>
+			<list><![CDATA[写真を撮るときは、それがクリアになっていることを確認してください。そして、拡大して頂ければより良いです。]]></list>
+	 </olists>
+	 <paragraph class="helptext1"><![CDATA[<strong>どのようにテキストの一部を選択するには？</strong>]]></paragraph>
+	 <olists class="helplist1">
+			<list><![CDATA[スクリーンに1秒間押して下さい ]]></list>
+			<list><![CDATA[文字をセレクトするツールがでたら、調整して文字をセレクトして下さい<br/><br/><img class="img-responsive" src="images/meal-menu.png" />]]></list>
+	 </olists>
+	 <paragraph class="helptext2"><![CDATA[<strong>どのように食事の写真を検索し実行するの？</strong>]]></paragraph>
+	 <olists class="helplist2">
+			<list><![CDATA[テキストの部分を選らんでください ]]></list>
+			<list><![CDATA[「検索&実行」を押して下さい]]></list>
+	 </olists>
+  </picHelp>
+   
+  <picmealfound>
+     <title><![CDATA[食事の写真見つかりました]]></title>
+	 <paragraph class="toppic"><![CDATA[トップ  <span class="countimg"></span> の写真が見つかりました： <span class="searchtext"></span>]]></paragraph>
+	 <paragraph class="searchtext"><![CDATA[ここに検索キーワードを表示します]]></paragraph>
+	 <paragraph class="noresultf"><![CDATA[検索できませんでした]]></paragraph>
+	 <btnorder><![CDATA[オーダーリストに入れる]]></btnorder> 
+  </picmealfound>
+ 
+  <gallery>
+     <title><![CDATA[ギャラリー]]></title>
+     <searchbtn><![CDATA[検索]]></searchbtn>
+     <placeholder><![CDATA[検索の食事]]></placeholder>
+	 <paragraph class="noresultf"><![CDATA[検索できませんでした]]></paragraph>
+	 <table>
+	   <thcol1><![CDATA[食事]]></thcol1>
+	   <thcol2><![CDATA[写真]]></thcol2>
+	 </table>
+  </gallery>
+  
+  <addnew>
+     <title><![CDATA[新しい食事の追加]]></title>
+     <savebtn><![CDATA[上書き]]></savebtn>
+	 <paragraph class="noresultf"><![CDATA[検索できませんでした]]></paragraph>
+	 <table>
+	   <thcol1><![CDATA[食事]]></thcol1>
+	   <thcol2><![CDATA[写真]]></thcol2>
+	 </table>
+	 <entermealtxt><![CDATA[食事名を入力してください]]></entermealtxt>
+  </addnew>
+  
+  <orderlist>
+     <title><![CDATA[オーダーリスト]]></title>
+	 <paragraph><![CDATA[スペシャルリクエスト ]]></paragraph>  
+	 <sfilter>
+	    <option><![CDATA[ベジタリアン]]></option>
+		<option><![CDATA[豚ダメ]]></option>
+		<option><![CDATA[牛ダメ]]></option>
+		<option><![CDATA[ノーシーフード]]></option>
+		<option><![CDATA[辛いのダメ]]></option>
+		<option><![CDATA[辛いの控えめ]]></option>
+		<option><![CDATA[お砂糖ダメ]]></option>
+		<option><![CDATA[お砂糖少なめ]]></option>
+		<option><![CDATA[ハラール]]></option>
+		<option><![CDATA[レア（ステーキ）]]></option>
+		<option><![CDATA[ミディアム（ステーキ）]]></option>
+		<option><![CDATA[ウェル・ダン（ステーキ）]]></option>
+	 </sfilter>
+	 <table>
+	    <col1text><![CDATA[食事]]></col1text>
+		<col2text><![CDATA[写真]]></col2text>
+	 </table> 
+	 <txtlocallng><![CDATA[Label in Local Language]]></txtlocallng>
+	 <txttrvllng><![CDATA[Label in the Traveler Language]]></txttrvllng>
+  </orderlist> 
+   
+  <managePicMeal>
+     <title><![CDATA[ピクチャー食事を管理する]]></title>
+	 <table>
+	    <col1text><![CDATA[食事]]></col1text>
+	    <col2text><![CDATA[写真]]></col2text>		
+	 </table>
+     <txttrvllng><![CDATA[旅行者の言語で食事の名前]]></txttrvllng>
+	 <txtnewlng><![CDATA[新しい言語で食事の名前を入力して下さい]]></txtnewlng>
+     <addnewlng><![CDATA[食事の名前を入力してください。]]></addnewlng>
+	 <buttons>
+	   <btn1><![CDATA[新しい写真を撮る]]></btn1>
+	   <btn2><![CDATA[既存の使用]]></btn2>
+	   <btn3><![CDATA[キャンセル]]></btn3>
+	 </buttons>
+	 
+	 <footerbuttons>
+	   <btn1><![CDATA[キャンセル]]></btn1>
+	   <btn2><![CDATA[削除]]></btn2>
+	   <btn3><![CDATA[保存]]></btn3>
+	 </footerbuttons>
+	 
+  </managePicMeal> 
+  
+  <chat>
+     <title><![CDATA[チャット]]></title>
+	 <lists>
+			<list><![CDATA[ご近所メンバー <i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[チャット<span class="counterflag notification">56</span><i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[全ての会話を削除<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[連絡先<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[通知 <span class="counterflag notification">56</span><i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+	 </lists>
+  </chat>
+  
+  <notificatesection>
+    <title><![CDATA[通知]]></title>
+  </notificatesection>
+  
+  <notificationdetail>
+     <title><![CDATA[通知の詳細]]></title>
+	 <txtchatbtn><![CDATA[チャット]]></txtchatbtn>
+  </notificationdetail>
+  
+  
+  <chatlist>
+      <title><![CDATA[チャットリスト]]></title>
+  </chatlist>
+  
+  <chatConversation>
+     <title><![CDATA[会話]]></title>
+	 <placeholder>
+	   <txtmsg><![CDATA[Message]]></txtmsg>
+	 </placeholder>
+	 <btnmsgbyme><![CDATA[送る]]></btnmsgbyme>
+	 <txtmsgplaceholder><![CDATA[メッセージを入力してください]]></txtmsgplaceholder>
+     <nouserlist><![CDATA[現在があるない友達チャット リストで。セクション私近くのチャット メンバーから開始してください。]]></nouserlist>
+  </chatConversation>
+
+  <membernearby>
+     <title><![CDATA[ご近所メンバー]]></title>
+	 <paragraph><![CDATA[近くのPicMealUp ユーザー]]></paragraph>
+  </membernearby>
+
+  <membernearbydetail>
+     <title><![CDATA[近所の人が]]></title>
+	 <paragraph><![CDATA[あなたの周辺のPicMealup使用者]]></paragraph>
+	 <options>
+	   <option><![CDATA[チャット]]></option>
+	   <option><![CDATA[挨拶を送る]]></option>
+	   <option><![CDATA[不正利用の報告]]></option>
+	 </options>
+  </membernearbydetail>
+  
+  <chatbydetail>
+    <title><![CDATA[コンタクト]]></title>
+	<options>
+	   <option><![CDATA[チャット]]></option>
+	   <option><![CDATA[あいさつを送る]]></option>
+	   <option><![CDATA[不正利用の報告]]></option>
+	 </options>
+  </chatbydetail>
+  
+  <sendgreeting>
+       <title><![CDATA[あいさつを送る]]></title>
+	   <btnsend><![CDATA[送る]]></btnsend>
+	 <paragraph><![CDATA[あなたの挨拶を下に入力して下さい]]></paragraph>
+	 <placeholder>
+	    <inputarea><![CDATA[ここにメッセージを書いて下さい]]></inputarea>
+	 </placeholder>
+  </sendgreeting>
+  
+  
+  
+  <reportabuse>
+       <title><![CDATA[不正利用の報告]]></title>
+	   <btnsend><![CDATA[送る]]></btnsend>
+	 <lists>
+			<list><![CDATA[ポルノ]]></list>
+			<list><![CDATA[ハラスメント]]></list>
+			<list><![CDATA[政治的プロパガンダ]]></list>
+			<list><![CDATA[スパム]]></list>
+			<list><![CDATA[版権侵害]]></list>
+			<list><![CDATA[ブラックリスト]]></list>
+			<list><![CDATA[その他]]></list>
+	 </lists>
+  </reportabuse>
+  
+  <reportabusesuccess>
+       <title><![CDATA[悪用成功]]></title>
+	   <btndone><![CDATA[終わった]]></btndone>
+ <paragraph><![CDATA[PicMealUpは、ポルノ、ハラスメント、プロパガンダ、暴力、詐欺的行為をシェアすることを禁止します]]></paragraph>
+     <paragraph><![CDATA[安全なソーシャルネットワーキング環境として、全ての深刻な苦情に対してきちんと対処します]]></paragraph>
+  </reportabusesuccess>
+  
+  <login>
+     <title><![CDATA[ログイン]]></title>
+	 <inputusername>
+	    <placeholder><![CDATA[電子メールアドレス]]></placeholder>
+		<errormsg><![CDATA[正しいメールアドレスを入力してください！]]></errormsg>
+	 </inputusername>
+	 <inputpwd>
+	    <placeholder><![CDATA[パスワード]]></placeholder>
+		<errormsg><![CDATA[パスワードを入力して下さい!]]></errormsg>
+	 </inputpwd>
+	 <btnlogin><![CDATA[ログイン]]></btnlogin>
+	 <btnforgotpwd><![CDATA[パスワードを忘れましたか？ここをクリック]]></btnforgotpwd>
+	 <btnsignup><![CDATA[サインアップ]]></btnsignup>
+  </login>
+ 
+  <forgotpassword>
+	 <title><![CDATA[パスワードを忘れた]]></title>
+	 <inputusername>
+	    <placeholder><![CDATA[電子メールアドレス]]></placeholder>
+		<errormsg><![CDATA[正しいメールアドレスを入力してください！]]></errormsg>
+	 </inputusername>
+	<btnforgotpwd><![CDATA[提出]]></btnforgotpwd>
+	<btnlogin><![CDATA[ログイン]]></btnlogin>
+ </forgotpassword>
+ 
+  <resetPassword>
+   <title><![CDATA[パスワードのリセット]]></title>
+   <inputusername>
+	    <placeholder><![CDATA[現在のパスワード]]></placeholder>
+		<errormsg><![CDATA[現在のパスワードを入力してください！]]></errormsg>
+	 </inputusername>
+	 <inputpwd>
+	    <placeholder><![CDATA[新しいパスワード]]></placeholder>
+		<errormsg><![CDATA[新しいパスワードを入力してください！]]></errormsg>
+	 </inputpwd>
+	 <inputcpwd>
+	    <placeholder><![CDATA[新しいパスワードの確認]]></placeholder>
+		<errormsg><![CDATA[パスワードが一致しません]]></errormsg>
+	 </inputcpwd>
+	 <btnsubmit><![CDATA[提出]]></btnsubmit>
+  </resetPassword>
+ 
+  <signup>
+     <title><![CDATA[サインアップ]]></title>
+	 <paragraph class="text-left text-bold"><![CDATA[<strong>ご近所メンバーとチャットするには登録してください</strong>]]></paragraph> 
+	 <form>
+	    <inputPic>
+		    <title><![CDATA[+ 写真を追加]]></title>
+			<errormsg><![CDATA[あなたの写真を選んでください]]></errormsg>
+		</inputPic>
+		<inputGender>
+		    <value1><![CDATA[M]]></value1>
+			<value2><![CDATA[F]]></value2>
+			<label1><![CDATA[男性]]></label1>
+			<label2><![CDATA[女性]]></label2>
+			<errormsg><![CDATA[あなたの性別を選んでください]]></errormsg>
+		</inputGender>
+		<inputFirstName>
+			<placeholder><![CDATA[名前]]></placeholder>
+			<errormsg><![CDATA[あなたの名前を入力してください]]></errormsg>
+			<errormsg2><![CDATA[名前は最低2文字以上]]></errormsg2>
+		</inputFirstName>
+		<inputLastName>
+			<placeholder><![CDATA[名字]]></placeholder>
+			<errormsg><![CDATA[あなたの名字を入力して下さい]]></errormsg>
+			<errormsg2><![CDATA[名字は最低2文字以上]]></errormsg2>
+		</inputLastName>
+		<inputEmail>
+			<placeholder><![CDATA[メールアドレス]]></placeholder>
+			<errormsg><![CDATA[正しいメールアドレスを入力して下さい]]></errormsg>
+		</inputEmail>
+		<inputPassword>
+			<placeholder><![CDATA[パスワード]]></placeholder>
+			<errormsg><![CDATA[正しいパスワードを入力してください]]></errormsg>
+			<errormsg2><![CDATA[パスワードは最低2文字以上]]></errormsg2>
+		</inputPassword>
+        <inputLang>
+            <txtdob><![CDATA[言語を選んでください]]></txtdob>
+        </inputLang>
+		<inputDOB>
+		    <txtdob><![CDATA[生年月日]]></txtdob>
+			<placeholder><![CDATA[DD:MM:YY]]></placeholder>
+			<errormsg><![CDATA[生年月日を入力して下さい]]></errormsg>
+		</inputDOB>
+		<selectNationality>
+		    <placeholder><![CDATA[国籍を選んでください]]></placeholder>
+		    <option1><![CDATA[国籍を選んでください]]></option1>
+			<error><![CDATA[あなたの国を選んでください]]></error>
+		</selectNationality>
+		<selectCOR>
+			<placeholder><![CDATA[お住まいの国を選んでください]]></placeholder>
+		    <option1><![CDATA[お住まいの国を選んでください]]></option1>
+			<error><![CDATA[お住まいの国を選んでください]]></error>
+		</selectCOR>
+		<selectJobFunction>
+		    <option1><![CDATA[お仕事を選んでください]]></option1>
+			<error><![CDATA[お仕事を選んでください]]></error>
+		</selectJobFunction>
+		<selectExpLevel>
+		    <option1><![CDATA[経験レベルを選んでください]]></option1>
+			<error><![CDATA[経験レベルを選んでください]]></error>
+		</selectExpLevel>
+		<selectIndustry>
+		    <option1><![CDATA[業界を選んでください]]></option1>
+			<error><![CDATA[業界を選んでください]]></error>
+		</selectIndustry>
+		<btnsubmit><![CDATA[上書き]]></btnsubmit> 
+	 </form>	 
+  </signup>
+  
+  <profile>
+       <title><![CDATA[プロフィール]]></title>
+	   <btnsubmit><![CDATA[上書き]]></btnsubmit>
+
+	 <form>
+	    <inputPic>
+		    <title><![CDATA[写真を変更する]]></title>
+		</inputPic>
+		<inputGender>
+		    <value1><![CDATA[M]]></value1>
+			<value2><![CDATA[F]]></value2>
+			<label1><![CDATA[男性]]></label1>
+			<label2><![CDATA[女性]]></label2>
+		</inputGender>
+		<inputFirstName>
+			<placeholder><![CDATA[名前]]></placeholder>
+            <errormsg><![CDATA[あなたの名前を入力してください]]></errormsg>
+			<errormsg2><![CDATA[名前は最低2文字以上]]></errormsg2>
+		</inputFirstName>
+		<inputLastName>
+			<placeholder><![CDATA[名字]]></placeholder>
+            <errormsg><![CDATA[あなたの名字を入力して下さい]]></errormsg>
+			<errormsg2><![CDATA[名字は最低2文字以上]]></errormsg2>
+		</inputLastName>
+		<inputEmail>
+			<placeholder><![CDATA[メールアドレス]]></placeholder>
+		</inputEmail>
+		<inputPassword>
+			<placeholder><![CDATA[パスワード]]></placeholder>
+		</inputPassword>
+        <inputLang>
+            <txtdob><![CDATA[言語を選んでください]]></txtdob>
+        </inputLang>
+		
+        <inputDOB>
+            <txtdob><![CDATA[生年月日]]></txtdob>
+			<placeholder><![CDATA[DD:MM:YY]]></placeholder>
+		</inputDOB>
+		<selectNationality>
+		    <placeholder><![CDATA[国籍を選んでください]]></placeholder>
+            <error><![CDATA[あなたの国を選んでください]]></error>
+		</selectNationality>
+		<selectCOR>
+			<placeholder><![CDATA[お住まいの国を選んでください]]></placeholder>
+            <error><![CDATA[お住まいの国を選んでください]]></error>
+		</selectCOR>
+		<selectJobFunction>
+		</selectJobFunction>
+		<selectExpLevel>
+		</selectExpLevel>
+		<selectIndustry>
+		</selectIndustry>
+	 </form>
+  </profile>
+  
+  <deleteaccount>
+     <title><![CDATA[アカウントを削除]]></title>
+	 <paragraph><![CDATA[アカウントを削除し、下記の通り行ないます]]></paragraph>
+	 <lists>
+			<list><![CDATA[PicMealUpからあなたのアカウントを削除します]]></list>
+			<list><![CDATA[PicMealUpの連絡先からあなたのアカウントを削除します]]></list>
+			<list><![CDATA[あなたのメッセージを履歴から消します]]></list>
+	 </lists>
+	 <btndelete><![CDATA[削除]]></btndelete>
+  </deleteaccount>
+
+  
+  <setting>
+     <title><![CDATA[設定]]></title>
+	 <lists class="upper">
+         <list><![CDATA[<span class="upgrade-icon pull-left"></span>Upgrade to Premium: US$1.99 <br><small>Chinese and Japanese languages included. No ads</small> <i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+         <list><![CDATA[<span class="restore-icon pull-left"></span>Restore Purchase  <i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[<span class="login-icon pull-left"></span>ログイン <i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[<span class="login-icon pull-left"></span>ログアウト <i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[<span class="profile-icon pull-left"></span>プロフィール<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[<span class="deleteaccount-icon pull-left"></span>アカウントを削除<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[<span class="pull-left glyphicon glyphicon-refresh"></span>パスワードを変更<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+            <list><![CDATA[<span class="tellafriend-icon pull-left"></span>友達に伝える<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[<span class="camera-icon2 pull-left"></span>PicMealUp アプリについて<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+            
+	 </lists>
+	 <!--<paragraph class="text-pink text-center"><![CDATA[種々雑多な]]></paragraph>
+	 <lists class="lower">
+			<list><![CDATA[<span class="tellafriend-icon pull-left"></span>友達に伝える<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[<span class="camera-icon2 pull-left"></span>PicMealUp アプリについて<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+	 </lists>-->
+  </setting>
+  
+  <tellafriend>
+     <title><![CDATA[友達に伝える]]></title>
+	 <lists>
+			<list><![CDATA[ <a href="mailto:?body=Hey there I am using PicMealUp"><span class="email-icon pull-left"></span>Email<i class="glyphicon glyphicon-chevron-right"></a></i>]]></list>
+			<list><![CDATA[ <a href="sms: ;body:Hey there I am using PicMealUp"><span class="messge-icon pull-left"></span>Message<i class="glyphicon glyphicon-chevron-right"></i></a>]]></list>
+			<list><![CDATA[<a href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=PicMealUp','_blank','location=yes')"><span class="facebook-icon pull-left"></span>Facebook<i class="glyphicon glyphicon-chevron-right"></i></a>]]></list>
+			<list><![CDATA[<a href="javascript:window.open('https://twitter.com/share?source=tweetbutton&text=PicMealUp&url=myurl','_blank','location=yes')"><span class="twitter-icon pull-left"></span>Twitter<i class="glyphicon glyphicon-chevron-right"></i></a>]]></list>
+	 </lists>
+  </tellafriend>
+  
+  <about>
+     <title><![CDATA[について]]></title>
+	 <paragraph class="text-center text-bold"><![CDATA[<strong>Copyright &copy; 2014 - Khakhon Som All rights reserved</strong>]]></paragraph>
+	 <lists>
+	        <list><![CDATA[PicMealUp について<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[お問い合わせ<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[FAQ<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+	 </lists>
+  </about>
+   
+  
+  <aboutpicmealup>
+     <title><![CDATA[PicMealUp アプリについて]]></title>
+	 <contents>
+	    <content>
+		    <heading><![CDATA[<strong>なに?</strong>]]></heading>
+	        <paragraph><![CDATA[PicMealUpは外国語のレストランメニューを画像に変換し、文字がわからなくても、食べたいものをオーダーすることが出来ます。]]></paragraph>
+		</content>
+		
+		<content>
+		    <heading><![CDATA[<strong>なぜ？</strong>]]></heading>
+	        <paragraph><![CDATA[出張先、レジャーで海外旅行先にて、外国語の文字だけのレストランメニュー（写真なし）を見て困った経験はございませんか？]]></paragraph>
+			<paragraph><![CDATA[PicMealUpのアプリを使用すれば、外国語を話せなくてもあなたの希望するメニューをオーダーすることができます。やり方は、ただメニューの文字を写真に撮って、文字をセレクトし「検索&実行」、画像を絞り込むだけです。]]></paragraph>
+			<paragraph><![CDATA[写真（画像）のおかげでおおよその食事がイメージできます。そしてあなたの食べたいものをオーダーすることができます。]]></paragraph>
+		</content>
+		
+		<content>
+		    <heading><![CDATA[<strong>だれ？</strong>]]></heading>
+	        <paragraph><![CDATA[頻繁に出張するトラベラーとして、読めないメニューを片手に困ったことが何度もありました。]]></paragraph>
+			<paragraph><![CDATA[そこでPicMealUpのアイデアが浮かびました。PicMealUpを使えば、あなたのイメージしている食事をどこでも、好きなときに楽しむことができます。]]></paragraph>
+		</content>
+	 </contents>
+	 
+  </aboutpicmealup>
+  
+  <contact>
+       <title><![CDATA[連絡先]]></title>
+	   <btnsend><![CDATA[送る]]></btnsend>
+	 <paragraph class="text-center text-bold"><![CDATA[<strong>困ったことを記述してください</strong>]]></paragraph>
+     <inputArea>
+	     <placeholder><![CDATA[メッセージを書き込む]]></placeholder>
+	 </inputArea>>
+  </contact>
+  
+  <allcontactlists>
+    <title><![CDATA[コンタクト]]></title>
+	<noresult><![CDATA[連絡先リスト内のメンバーなし]]></noresult>
+  </allcontactlists>
+  
+  <faq>
+     <title><![CDATA[よくあるお問い合わせ]]></title>
+	 <infotext><![CDATA[PicMealUpはチャリティープロジェクトBreakfast For Smile（<a href="javascript:;">www.breakfastforsmile.com</a>）を応援サポートしています。]]></infotext>
+	 <accordion>
+	     <panel>
+		   <paneltitle><![CDATA[Breakfast For Smile（www.breakfastforsmile.com）は何ですか？]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[カンボジアの農村部では、子どもたちが学校に行くために、空腹の状態で数キロも歩きます。]]></paragraph>
+				 <paragraph><![CDATA[彼らは最終的に授業への集中力を失い、お腹を空かしたまま荒れた心で、混雑した教室に座っています。]]></paragraph>
+				 <paragraph><![CDATA[Breakfast For Smileのは目的は、授業前に子供たちに朝食を提供することです。]]></paragraph>
+				 <paragraph><![CDATA[Breakfast For Smileのバンは、農村部の学校でも移動式なので、子供たちにおいしい朝食を提供できます。]]></paragraph>
+				 <paragraph><![CDATA[毎日のボリュームたっぷりの朝食はお粥や麺、オムレツ、フルーツで構成されています。]]></paragraph>
+				 <paragraph><![CDATA[PicMealUpを使用することで、あなたもチャリティプロジェクトBFS(<a href='javascript:;'>www.breakfastforsmile.com</a>)をサポートしています。私たちはPicMealUpの有料版や広告モデルを起動して、近い将来に発生する収益を計画しています。そして後に、私たちはBreakfast For Smile（<a href='javascript:;'>www.breakfastforsmile.com</a>)をサポートするための収入の20％を与えることをコミットします。]]></paragraph>
+
+			</panelbody>
+		</panel>
+		
+	    <panel>
+		    <paneltitle><![CDATA[OCRって何？]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[（光学的文字認識）とは、手書きや印刷された文字を、イメージスキャナやデジタルカメラによって読みとり、コンピュータが利用できるデジタルの文字コードに変換する技術です。]]></paragraph>
+			</panelbody>
+		</panel>
+		<panel>
+		    <paneltitle><![CDATA[PicMealUpの使い方？]]></paneltitle>
+			<panelbody>
+			     <paragraph ><![CDATA[PicMealUpの使い方はシンプルです:]]></paragraph>
+				 <lists>
+			        <list><![CDATA[レストランメニューをスマホのカメラで撮る]]></list>
+			        <list><![CDATA[OCRにて変換、メニューの文字をコンピューターがテキスト変換]]></list>
+					<list><![CDATA[食事メニューの名前を定義し、「実行&検索」]]></list>
+					<list><![CDATA[食事の写真をみて、オーダーリストに追加する]]></list>
+	             </lists>
+			</panelbody>
+		</panel>
+		
+		<panel>
+		    <paneltitle><![CDATA[食事を検索する際に、どのように食事の名前をセレクトするか?]]></paneltitle>
+			<panelbody>
+				 <lists>
+			        <list><![CDATA[メニューをスキャンし、表示された食事の名前をセレクトし、「実行&検索」で写真を絞り込む<div class="clearfix"></div> <img class="img-responsive" src="images/meal-menu.png" />]]></list>
+			        <list><![CDATA[食事の名前をセレクトし調整する]]></list>
+					<list><![CDATA[「検索&閲覧」を押す]]></list>
+	             </lists>
+			</panelbody>
+		</panel>
+		<panel>
+		    <paneltitle><![CDATA[どのようにアカウントを削除するか?]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[PicMealUpをオープンし、PicMealUp設定 >アカウント削除]]></paragraph>
+			</panelbody>
+		</panel>
+		
+		<panel>
+		    <paneltitle><![CDATA[不正行為をレポートするには]]></paneltitle>
+			<panelbody>
+			     <lists>
+			        <list><![CDATA[ PicMealUpをオープンし、PicMealUpチャット >近くのメンバー]]></list>
+			        <list><![CDATA[連絡先から名前を選んでクリック]]></list>
+					<list><![CDATA[不正行為をレポート]]></list>
+					<list><![CDATA[不正行為の種類を選ぶ]]></list>
+	             </lists>
+			     <paragraph><![CDATA[迷惑メールに入れたリストの連絡先からあなたの情報はみえません。もちろんメッセージを送ることもできません。]]></paragraph>
+			</panelbody>
+		</panel>
+		
+		<panel>
+		    <paneltitle><![CDATA[どのようにブロックをしたりブロックをはずすか?]]></paneltitle>
+			<panelbody>
+			     <lists>
+			        <list><![CDATA[PicMealUpをオープンし、PicMealUpチャット >近くのメンバー]]></list>
+			        <list><![CDATA[.連絡先から名前を選んでクリック]]></list>
+					<list><![CDATA[不正行為をレポート]]></list>
+					<list><![CDATA[不正行為の種類を選んで、連絡先からブロックするかしないか選択する]]></list>
+	             </lists>
+			     <paragraph><![CDATA[不正行為を送った人と認証された場合、この連絡先からあなたの情報はみえません。もちろんメッセージを送ることもできません。]]></paragraph>
+			</panelbody>
+		</panel>
+		
+		<panel>
+		    <paneltitle><![CDATA[PicMealUpに接続できない!]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[まれに、PicMealUpに接続しづらいことがおこるかもしれません。]]></paragraph>
+				 <paragraph><![CDATA[これは携帯のデバイスのインターネットの接続による問題です。もしくはインターネットプロバイダーの問題です。]]></paragraph>
+				 <paragraph><![CDATA[ほとんどの接続の問題は 携帯デバイスの設定の要因を確認すれば解決します。
+                                          携帯のデバイス> Wi-Fiの設定]]></paragraph>
+			</panelbody>
+		</panel>
+                                          
+		<panel>
+		    <paneltitle><![CDATA[どのように友達をPicMealUpに招待するか?]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[もしあなたの友達がまだPicMealUpを使用していない場合、簡単に友達を招待することができます。]]></paragraph>
+				 <paragraph><![CDATA[PicMealUp から招待状を送るか、お友達にPicMealUpを伝えることができます。]]></paragraph>
+                 <lists>
+			        <list><![CDATA[PicMealUpをオープンし、PicMealUpを設定 > 友達に伝える]]></list>
+			        <list><![CDATA[どのようにお友達を招待するか、下記の方法から選ぶことが出来ます:
+                         メール、メッセージ、ファイスブックもしくはツイッター]]></list>
+	             </lists>
+			</panelbody>
+		</panel>
+	
+		
+		<panel>
+		    <paneltitle><![CDATA[My PicMealUpが作動しない!]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[アカウントを強制的に作動停止にする場合があります。（※もし利用規約に違反する場合）
+ご利用にあたり利用規約をご確認の上、適切にPicMealUpをご使用下さいませ。]]></paragraph>
+				 <paragraph><![CDATA[私たちは、各アカウントの非活性化の個別の理由のについてコメントすることはできません。しかし、次のような具体的な行動は、最終的には自分のアカウントが非アクティブになるの可能性があります。]]></paragraph>
+                 <lists>
+			        <list><![CDATA[公告やコマーシャルを送った場合]]></list>
+					<list><![CDATA[スパムや不適切なメッセージを送った場合]]></list>
+					<list><![CDATA[プロフィール写真やメッセージ、内容が規約に違反する場合。
+（※法的に違反する、わいせつ、脅し、ハラスメント、悪意、人種・民族的差別要素が含まれている場合、不適切な内容。）]]></list>
+					<list><![CDATA[他のユーザーにとって迷惑になる場合]]></list>
+					<list><![CDATA[侵害にあたる行為だと認められた場合]]></list>
+					<list><![CDATA[PicMealUpを通して自動送信もしくは権限がないシステムを使用された場合/　登録されていない、もしくは許可されていないメッセージが送られた場合。]]></list>
+	             </lists>
+				 <paragraph><![CDATA[注意点としては、警告を送る前にアカウントを強制作動停止する場合があります。
+もし何らかの弊社での手違いでアカウントが停止された場合には、私たちにメールを送って頂ければ、詳細をお調べすることが出来ます。]]></paragraph>
+				 <paragraph><![CDATA[強制作動停止をした場合、72時間後にあなたの友達はあなたを検索することができません。]]></paragraph>
+				 <paragraph><![CDATA[PicMealUpが私たちの独自の権限により、予告なしに何らかの理由でサービスを中止することがあることをご了承下さいます様何卒宜しくお願い致します。]]></paragraph>
+			</panelbody>
+		</panel>
+		
+		<panel>
+		    <paneltitle><![CDATA[食事の写真を検索し、 PicMealUpを通して、無料でメッセージを送ることは可能ですか?]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[あなたの携帯が十分なデータプランを使用している場合、食事の写真を検索するのは無料です、もしくはPicMealUp経由でメッセージを受送信することは可能です。]]></paragraph>
+				 <paragraph><![CDATA[PicMealUpはあなたのインターネットデータプランにより、メッセージを受送信したり、写真を送ったり、ビデオを送ることが出来ます。
+                 あなたの契約している携帯プランが、ローミングが可能で、データの上限を超えない限り、PicMealUpをご使用するにあたって超過料金は発生いたしません。]]></paragraph>
+				 <paragraph><![CDATA[データの上限を超えていないように使用している場合は、Wi-Fiでのご使用を推奨します。]]></paragraph>
+			</panelbody>
+		</panel>
+		
+		<panel>
+		    <paneltitle><![CDATA[どのアップルデバイスでサポートが受けられるの?]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[PicMealUpはiPhone  iOS 4.3もしくはそれ以上の最新のものでしたらご利用できます。
+         最新のiOSを使用して頂くことを推奨します。ご参考までに、アップデートに関しての詳細は下記リンク先アップルサポートにてお調べ下さい。
+                  (http://support.apple.com/kb/HT4623)]]></paragraph>
+				 <paragraph><![CDATA[※今のところ: iPod デバイスに関してのサポートは行なっておりません。]]></paragraph>
+
+			</panelbody>
+		</panel>
+		<panel>
+		   <paneltitle><![CDATA[PicMealUpは24時間ごとに履歴が消されるようになってます！]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[あなたがメッセージを送受信するとき、私たちは一時的に受信者のデバイス上（そのような写真、ビデオ、字幕、および/またはチャットなど）、それらのメッセージの内容を一時保存します。]]></paragraph>
+				 <paragraph><![CDATA[すべての受信者がメッセージを見たあと、私たちは自動的に受信者のデバイス、24時間ごとにPicMealUpアプリからメッセージを削除します。]]></paragraph>
+				 <paragraph><![CDATA[さらに、私達はすべてのメッセージが常に特定の時間内に削除されることを保証することはできません。（たとえば、スクリーンショットを取ることによって）あなたのメッセージのコピーを作成することを他の人から防ぐことはできません。私たちは、受信者が、送信されたチャットのスクリーンショットをしたことを検出した場合、私たちはあなた（送信者側）に通知します。 ]]></paragraph>
+				 <paragraph><![CDATA[受信者に履歴を残したいもらいたいメッセージを送った場合、メッセージを送信するためにPicMealUpを使用しないでください。]]></paragraph>
+
+			</panelbody>
+		</panel>
+	   
+		
+	 </accordion>
+  </faq> 
+ </section>
+ <tooltip>
+     <txtdefine><![CDATA[定義]]></txtdefine>
+	 <txtsearch><![CDATA[「検索&実行」写真]]></txtsearch>
+	 <inputtxt>
+	   <placeholder><![CDATA[]]></placeholder>
+	 </inputtxt>
+  </tooltip>
+  <jAlert>
+     <Messages>
+	   <msg1><![CDATA[アカウントを消してもよろしいのでしょうか？]]></msg1>
+	   <msg2><![CDATA[全ての会話を消してもよいのでしょうか？]]></msg2>
+	   <msg3><![CDATA[選んだ食事を削除してもよいのでしょうか？]]></msg3>
+	   <msg4><![CDATA[エントリーしたものを削除してもよいのでしょうか?]]></msg4>
+       <msg5><![CDATA[あなたは、チャットリストから、このメンバーを削除してもよろしいですか]]></msg5>
+        <msg6><![CDATA[PicMealUpは自分の位置を見つけることができません。]]></msg6>
+        <msg7><![CDATA[あなたはお問い合わせからこのメンバーを削除してもよろしい？]]></msg7>
+	 </Messages>
+     <alertmessage><![CDATA[メッセージ]]></alertmessage>
+     <confirmmessage><![CDATA[確定]]></confirmmessage>
+	 <okbutton><![CDATA[OK]]></okbutton>
+	 <cancelbutton><![CDATA[キャンセル]]></cancelbutton>
+  </jAlert>
+ </structure>
+
+
+
+
+
+
+
+
+
+
+
+

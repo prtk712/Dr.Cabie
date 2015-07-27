@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <structure>
+  
+ <popups>
+     <popupselectlanguage>
+	     <title></title>
+		 <body>
+		   <option><![CDATA[在掃描選擇語言]]></option>
+		 </body>
+         <donebtn><![CDATA[取消]]></donebtn>
+	 </popupselectlanguage>
+	 
+	 <addcontact>
+	     <title><![CDATA[成功]]></title>
+		  <body><![CDATA[會員已添加到聯繫人列表]]></body>
+	 </addcontact>
+	 
+	 <popupLoginFailed>
+	     <title><![CDATA[错误]]></title>
+		  <body><![CDATA[無效的憑證。請再試一次]]></body>
+	 </popupLoginFailed>
+	 
+	 <sndgrt>
+	     <title><![CDATA[成功]]></title>
+		 <body><![CDATA[问候语已成功发送。]]></body>
+	 </sndgrt>
+	 
+     <popupNetworkFailed>
+         <title><![CDATA[信息]]></title>
+         <body><![CDATA[互聯網連接是必需的。]]></body>
+     </popupNetworkFailed>
+     
+	 <errorsndgrt>
+	     <title><![CDATA[错误]]></title>
+		 <body><![CDATA[请输入您的问候语。]]></body>
+	 </errorsndgrt>
+	 
+	 <clearconver>
+	     <title><![CDATA[成功]]></title>
+		 <body><![CDATA[您已经清除了所有的对话。]]></body>
+	 </clearconver>
+	 
+	 <popupRegisterFailed>
+	     <title><![CDATA[错误]]></title>
+		 <body><![CDATA[无法注册。]]></body>
+	 </popupRegisterFailed>
+	 
+	 <popupOCR>
+	     <title><![CDATA[错误]]></title>
+		 <body><![CDATA[无法将照片转换成可读的文本：请重新拍摄质量更高的新照片.]]></body>
+	 </popupOCR>
+	 
+	 <popupregister>
+	     <title><![CDATA[成功]]></title>
+		 <body><![CDATA[您已成功注册。]]></body>
+	 </popupregister>
+	 
+	 <popupLogout>
+	     <title><![CDATA[成功]]></title>
+		 <body><![CDATA[您已成功退出。]]></body>
+	 </popupLogout>
+	 
+	 <popupForgotPwd>
+	     <title><![CDATA[成功]]></title>
+		 <body><![CDATA[您的密码已重设。您的新密码已经发送到您的电子邮件地址。]]></body>
+	 </popupForgotPwd>
+	 
+	 <popupChangePwd>
+	     <title><![CDATA[成功]]></title>
+		 <body><![CDATA[您的密码已成功更新。]]></body>
+	 </popupChangePwd>
+	 
+	 <popupChangeFailPwd>
+	     <title><![CDATA[错误]]></title>
+		 <body><![CDATA[您当前密码不匹配。]]></body>
+	 </popupChangeFailPwd>
+	 
+	 <popupproblem_error>
+	     <title><![CDATA[错误]]></title>
+		 <body><![CDATA[请描述你的问题。]]></body>
+	 </popupproblem_error>
+	 
+	 <popupproblem_success>
+	     <title><![CDATA[成功]]></title>
+		 <body><![CDATA[您的评论已成功发布。]]></body>
+	 </popupproblem_success>
+	 
+	 <popupdleteacct>
+	     <title><![CDATA[成功]]></title>
+		 <body><![CDATA[您的帐号已被成功删除。]]></body>
+	 </popupdleteacct>
+	 
+	 <popupEmailFound>
+	     <title><![CDATA[错误]]></title>
+		 <body><![CDATA[Email already exists.]]></body>
+	 </popupEmailFound>
+	 
+	 
+  </popups>
+ <splashContent><![CDATA[<p>非常感謝。通過使用PicMealUp，你還支持慈善項目 <a href="javascript;">www.breakfastforsmile.com</a>.
+     事實上，我們計劃生成，在不久的將來，收入，推出PicMealUp或付費版的廣告模式。然後後，我們提交給收入的20％，以支持 <a href="javascript;">www.breakfastforsmile.com</a></p>
+     <p>如果您想加入PicMealUp社區，請創建您的帳戶，並與其他會員交流。</p>]]></splashContent>
+ <section>
+  <splash>
+      <paragraph class="text-center"><![CDATA[非常感谢您使用PicMealUp. 通过使用PicMealUp，你可以支持我们的非政府组织项目www.breakfastforsmile.com 我们承诺会把收入的20％捐给 Breakfast for Smile。]]></paragraph> 
+	  <paragraph class="text-center"><![CDATA[如果您想加入PicMealUp社区，请登录或创建新的帐户，就可以与其他会员交流。]]></paragraph> 
+	  <footer>
+	     <skipbtn><![CDATA[跳過]]></skipbtn>
+	     <loginbtn><![CDATA[登錄]]></loginbtn>
+	  </footer>
+  </splash>
+  
+  <home>
+       <title><![CDATA[首页]]></title>
+	<paragraph class="text-center"><![CDATA[PicMealUp帮助您了解怎么从餐厅的菜单点餐即使菜单不是你所熟悉的语言。]]></paragraph> 
+	<paragraph class="text-bold"><![CDATA[<strong> 使用PicMealUp，很简单：</strong>]]></paragraph> 
+	<lists class="default">
+			<list><![CDATA[用手机给餐厅菜单拍一张照片. ]]></list>
+			<list><![CDATA[选择美食的名称，然后执行搜索，找到相关图片]]></list>
+			<list><![CDATA[查看并添加图片到您的订单列表]]></list>
+	</lists>
+  </home>
+
+  <picmeal>
+       <title><![CDATA[圖片膳食]]></title>
+	<paragraph class="text-left"><![CDATA[非常感谢您使用PicMealUp.]]></paragraph> 
+	<paragraph><![CDATA[通过使用PicMealUp，你可以支持我们的非政府组织项目www.breakfastforsmile.com。 我们承诺会把收入的20％捐给 Breakfast for Smile]]></paragraph> 
+  </picmeal>
+  
+  <camerapic>
+       <title><![CDATA[裁剪圖像]]></title>
+	   <infotext><![CDATA[识别中...</br>（可能需要长达1分钟）]]></infotext>
+	   <button>
+	   <newpicbtn><![CDATA[<img src="images/camera-icon.png" />拍一张新照片]]></newpicbtn>
+	   <choosepicbtn><![CDATA[<img class="img2" src="images/small-gallery-icon.png" />选择现有图片]]></choosepicbtn>
+	   <scanbtn><![CDATA[<i class="glyphicon glyphicon-search absearch" ></i>扫描和搜索]]></scanbtn>
+	   <langbtn><![CDATA[<i class="glyphicon glyphicon-book absearch" ></i>选择语言]]></langbtn>
+	   </button>
+  </camerapic>
+  
+  <picText>
+    <choosepicbtn><![CDATA[选择现有图片]]></choosepicbtn>
+  </picText>
+  
+  <picHelp>
+     <title><![CDATA[幫助]]></title>
+	 <paragraph class="helptext0"><![CDATA[<strong>为获得最佳效果</strong>]]></paragraph>
+	 <olists class="helplist0">
+			<list><![CDATA[确保文本是在一个平面上，有良好的照明，无阴影。 ]]></list>
+			<list><![CDATA[当拍摄照片时，请确保它的清晰度。而且越大越好。]]></list>
+	 </olists>
+	 <paragraph class="helptext1"><![CDATA[<strong>如何选择文本的部分？</strong>]]></paragraph>
+	 <olists class="helplist1">
+			<list><![CDATA[在1秒点击屏幕。 ]]></list>
+			<list><![CDATA[当文本选择工具的出现，调整文字部分的选择。<br/><br/><img class="img-responsive" src="images/meal-menu.png" />]]></list>
+	 </olists>
+	 <paragraph class="helptext2"><![CDATA[<strong>如何执行搜索美食的照片？</strong>]]></paragraph>
+	 <olists class="helplist2">
+			<list><![CDATA[选择部分文本]]></list>
+			<list><![CDATA[点击“搜索和显示图片”]]></list>
+	 </olists>
+  </picHelp>
+   
+  <picmealfound>
+     <title><![CDATA[找到美食图片]]></title> 
+	 <paragraph class="toppic"><![CDATA[熱門  <span class="countimg"></span> 發現圖片： <span class="searchtext"></span>]]></paragraph>
+	 <paragraph class="searchtext"><![CDATA[这里显示搜索关键词]]></paragraph>
+	 <paragraph class="noresultf"><![CDATA[没有找到任何信息]]></paragraph>
+	 <btnorder><![CDATA[添加到点餐订单系统]]></btnorder> 
+  </picmealfound>
+ 
+  <gallery>
+     <title><![CDATA[图片库]]></title>
+     <searchbtn><![CDATA[搜索]]></searchbtn>
+     <placeholder><![CDATA[搜索餐]]></placeholder>
+	 <paragraph class="noresultf"><![CDATA[没有找到任何信息]]></paragraph>
+	 <table>
+	   <thcol1><![CDATA[膳食]]></thcol1>
+	   <thcol2><![CDATA[图片]]></thcol2>
+	 </table>
+  </gallery>
+  
+  <addnew>
+     <title><![CDATA[添加新的餐]]></title>
+     <savebtn><![CDATA[保存]]></savebtn>
+	 <paragraph class="noresultf"><![CDATA[No Result Found]]></paragraph>
+	 <table>
+	   <thcol1><![CDATA[膳食]]></thcol1>
+	   <thcol2><![CDATA[图片]]></thcol2>
+	 </table>
+	 <entermealtxt><![CDATA[输入美食名字]]></entermealtxt>
+  </addnew>
+  
+  <orderlist>
+     <title><![CDATA[訂單列表]]></title>
+	 <paragraph><![CDATA[麻烦您，我想点下面列举的美食 ]]></paragraph>  
+	 <sfilter>
+	    <option><![CDATA[素食]]></option>
+		<option><![CDATA[没有猪肉]]></option>
+		<option><![CDATA[没有牛肉]]></option>
+		<option><![CDATA[无海鲜]]></option>
+		<option><![CDATA[无香料]]></option>
+		<option><![CDATA[少辣]]></option>
+		<option><![CDATA[无糖]]></option>
+		<option><![CDATA[少糖]]></option>
+		<option><![CDATA[清真]]></option>
+		<option><![CDATA[三成熟 （牛排）]]></option>
+		<option><![CDATA[半生熟（牛排）]]></option>
+		<option><![CDATA[全熟（牛排）]]></option>
+	 </sfilter>
+	 <table>
+	    <col1text><![CDATA[膳食]]></col1text>
+		<col2text><![CDATA[图片]]></col2text>
+	 </table> 
+	 <txtlocallng><![CDATA[在當地語言的標籤]]></txtlocallng>
+	 <txttrvllng><![CDATA[在旅行者語言標籤]]></txttrvllng>
+  </orderlist> 
+   
+  <managePicMeal>
+     <title><![CDATA[管理優化膳食]]></title>
+	 <table>
+	    <col1text><![CDATA[膳食]]]></col1text>
+	    <col2text><![CDATA[图片]]></col2text>		
+	 </table>
+     <txttrvllng><![CDATA[美食的旅行者语言的名称]]></txttrvllng>
+	 <txtnewlng><![CDATA[添加新的美食语言的名称]]></txtnewlng>
+      <addnewlng><![CDATA[請輸入名稱的這頓飯。]]></addnewlng>
+	 <buttons>
+	   <btn1><![CDATA[拍攝新照片]]></btn1>
+	   <btn2><![CDATA[利用現有的]]></btn2>
+	   <btn3><![CDATA[取消]]></btn3>
+	 </buttons>
+	 
+	 <footerbuttons>
+	   <btn1><![CDATA[取消]]></btn1>
+	   <btn2><![CDATA[删除 （图片）]]></btn2>
+	   <btn3><![CDATA[保存]]></btn3>
+	 </footerbuttons>
+	 
+  </managePicMeal> 
+  
+  <chat>
+     <title><![CDATA[聊天]]></title>
+	 <lists>
+			<list><![CDATA[附近的会员 <i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[聊天<span class="counterflag notification">56</span><i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[清除所有对话<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[联系人<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[消息（接收消息） <span class="counterflag notification">56</span><i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+	 </lists>
+  </chat>
+  
+  <notificatesection>
+    <title><![CDATA[消息]]></title>
+  </notificatesection>
+  
+  <notificationdetail>
+     <title><![CDATA[通知詳細]]></title>
+	 <txtchatbtn><![CDATA[聊天]]></txtchatbtn>
+  </notificationdetail>
+  
+  
+  <chatlist>
+      <title><![CDATA[聊天列表]]></title>
+  </chatlist>
+  
+  <chatConversation>
+     <title><![CDATA[談話]]></title>
+	 <placeholder>
+	   <txtmsg><![CDATA[留言]]></txtmsg>
+	 </placeholder>
+	 <btnmsgbyme><![CDATA[发送]]></btnmsgbyme>
+	 <txtmsgplaceholder><![CDATA[输入您的留言]]></txtmsgplaceholder>
+     <nouserlist><![CDATA[目前你有沒有朋友在你的聊天清單。請啟動附近我從成員聊天一節。]]></nouserlist>
+  </chatConversation>
+
+  <membernearby>
+     <title><![CDATA[附近的会员]]></title>
+	 <paragraph><![CDATA[你附近的PicMealUp会员]]></paragraph>
+  </membernearby>
+
+  <membernearbydetail>
+     <title><![CDATA[附近的会员]]></title>
+	 <paragraph><![CDATA[PictureMeal 附近的会员。]]></paragraph>
+	 <options>
+	   <option><![CDATA[聊天]]></option>
+	   <option><![CDATA[打个招呼]]></option>
+	   <option><![CDATA[举报]]></option>
+	 </options>
+  </membernearbydetail>
+  
+  <chatbydetail>
+    <title><![CDATA[联系人]]></title>
+	<options>
+	   <option><![CDATA[聊天]]></option>
+	   <option><![CDATA[打个招呼]]></option>
+	   <option><![CDATA[举报]]></option>
+	 </options>
+  </chatbydetail>
+  
+  <sendgreeting>
+       <title><![CDATA[打个招呼]]></title>
+	   <btnsend><![CDATA[发送]]></btnsend>
+	 <paragraph><![CDATA[请在下面输入您的问候语：]]></paragraph>
+	 <placeholder>
+	    <inputarea><![CDATA[在这里写下您的留言。]]></inputarea>
+	 </placeholder>
+  </sendgreeting>
+  
+  
+  
+  <reportabuse>
+       <title><![CDATA[举报]]></title>
+	   <btnsend><![CDATA[发送]]></btnsend>
+	 <lists>
+			<list><![CDATA[情色]]></list>
+			<list><![CDATA[骚扰]]></list>
+			<list><![CDATA[政治宣传]]></list>
+			<list><![CDATA[骗局]]></list>
+			<list><![CDATA[侵权]]></list>
+			<list><![CDATA[黑名单]]></list>
+			<list><![CDATA[其它]]></list>
+	 </lists>
+  </reportabuse>
+  
+  <reportabusesuccess>
+       <title><![CDATA[舉報濫用成功]]></title>
+	   <btndone><![CDATA[做]]></btndone>
+ <paragraph><![CDATA[“PicMealUp禁止传递任何情色，骚扰，宣传，暴力或欺诈性材料。 ]]></paragraph>
+     <paragraph><![CDATA[我们会认真对待所有的投诉，以确保安全的社交网络“。]]></paragraph>
+  </reportabusesuccess>
+  
+  <login>
+     <title><![CDATA[登录]]></title>
+	 <inputusername>
+	    <placeholder><![CDATA[电子邮件地址]]></placeholder>
+		<errormsg><![CDATA[请输入正确的邮箱地址!]]></errormsg>
+	 </inputusername>
+	 <inputpwd>
+	    <placeholder><![CDATA[密码]]></placeholder>
+		<errormsg><![CDATA[请输入密码！!]]></errormsg>
+	 </inputpwd>
+	 <btnlogin><![CDATA[登錄]]></btnlogin>
+	 <btnforgotpwd><![CDATA[忘记密码？点击这里]]></btnforgotpwd>
+	 <btnsignup><![CDATA[注册新的账户]]></btnsignup>
+  </login>
+ 
+  <forgotpassword>
+	 <title><![CDATA[忘记密码]]></title>
+	 <inputusername>
+	    <placeholder><![CDATA[电子邮件地址]]></placeholder>
+		<errormsg><![CDATA[请输入正确的邮箱地址]]></errormsg>
+	 </inputusername>
+	<btnforgotpwd><![CDATA[提交]]></btnforgotpwd>
+	<btnlogin><![CDATA[登录]]></btnlogin>
+ </forgotpassword>
+ 
+  <resetPassword>
+   <title><![CDATA[重設密碼]]></title>
+   <inputusername>
+	    <placeholder><![CDATA[當前密碼]]></placeholder>
+		<errormsg><![CDATA[請輸入您的當前密碼]]></errormsg>
+	 </inputusername>
+	 <inputpwd>
+	    <placeholder><![CDATA[新密碼]]></placeholder>
+		<errormsg><![CDATA[請輸入您的新密碼]]></errormsg>
+	 </inputpwd>
+	 <inputcpwd>
+	    <placeholder><![CDATA[確認新密碼]]></placeholder>
+		<errormsg><![CDATA[密碼不匹配]]></errormsg>
+	 </inputcpwd>
+	 <btnsubmit><![CDATA[提交]]></btnsubmit>
+  </resetPassword>
+ 
+  <signup>
+     <title><![CDATA[注册新的账户]]></title>
+	 <paragraph class="text-left text-bold"><![CDATA[<strong>请登录和附近的会员聊天</strong>]]></paragraph> 
+	 <form>
+	    <inputPic>
+		    <title><![CDATA[+ 添加您的图片]]></title>
+			<errormsg><![CDATA[请选择您的图片]]></errormsg>
+		</inputPic>
+		<inputGender>
+		    <value1><![CDATA[M]]></value1>
+			<value2><![CDATA[F]]></value2>
+			<label1><![CDATA[男]]></label1>
+			<label2><![CDATA[女]]></label2>
+			<errormsg><![CDATA[请选择您的性别]]></errormsg>
+		</inputGender>
+		<inputFirstName>
+			<placeholder><![CDATA[名字]]></placeholder>
+			<errormsg><![CDATA[请输入您的名字]]></errormsg>
+			<errormsg2><![CDATA[名字应该是至少有2个字符长。]]></errormsg2>
+		</inputFirstName>
+		<inputLastName>
+			<placeholder><![CDATA[姓]]></placeholder>
+			<errormsg><![CDATA[请输入您的姓氏]]></errormsg>
+			<errormsg2><![CDATA[姓应至少有2个字符长。]]></errormsg2>
+		</inputLastName>
+		<inputEmail>
+			<placeholder><![CDATA[电子邮件地址]]></placeholder>
+			<errormsg><![CDATA[请输入正确的邮箱地址]]></errormsg>
+		</inputEmail>
+		<inputPassword>
+			<placeholder><![CDATA[密码]]></placeholder>
+			<errormsg><![CDATA[请输入您的密码]]></errormsg>
+			<errormsg2><![CDATA[密码应至少有2个字符长。]]></errormsg2>
+		</inputPassword>
+        <inputLang>
+            <txtdob><![CDATA[选择语言]]></txtdob>
+        </inputLang>
+		<inputDOB>
+		    <txtdob><![CDATA[出生日期]]></txtdob>
+			<placeholder><![CDATA[DD:MM:YY]]></placeholder>
+			<errormsg><![CDATA[请输入您的出生日期]]></errormsg>
+		</inputDOB>
+		<selectNationality>
+		    <placeholder><![CDATA[选择国籍]]></placeholder>
+		    <option1><![CDATA[选择国籍]]></option1>
+			<error><![CDATA[请选择您所在的国家]]></error>
+		</selectNationality>
+		<selectCOR>
+			<placeholder><![CDATA[选择您所长住的国家]]></placeholder>
+		    <option1><![CDATA[选择您所长住的国家]]></option1>
+			<error><![CDATA[请选择您所长住的国家]]></error>
+		</selectCOR>
+		<selectJobFunction>
+		    <option1><![CDATA[选择您的工作职能]]></option1>
+			<error><![CDATA[请选择您的工作职能]]></error>
+		</selectJobFunction>
+		<selectExpLevel>
+		    <option1><![CDATA[选择您的经验]]></option1>
+			<error><![CDATA[请选择经验]]></error>
+		</selectExpLevel>
+		<selectIndustry>
+		    <option1><![CDATA[选择您的行业]]></option1>
+			<error><![CDATA[请选择您的行业]]></error>
+		</selectIndustry>
+		<btnsubmit><![CDATA[保存]]></btnsubmit> 
+	 </form>	 
+  </signup>
+  
+  <profile>
+       <title><![CDATA[简介]]></title>
+	   <btnsubmit><![CDATA[保存]]></btnsubmit>
+
+	 <form>
+	    <inputPic>
+		    <title><![CDATA[更改图片]]></title>
+		</inputPic>
+		<inputGender>
+		    <value1><![CDATA[M]]></value1>
+			<value2><![CDATA[F]]></value2>
+			<label1><![CDATA[男]]></label1>
+			<label2><![CDATA[女]]></label2>
+		</inputGender>
+		<inputFirstName>
+			<placeholder><![CDATA[姓]]></placeholder>
+            <errormsg><![CDATA[请输入您的名字]]></errormsg>
+			<errormsg2><![CDATA[名字应该是至少有2个字符长。]]></errormsg2>
+		</inputFirstName>
+		<inputLastName>
+			<placeholder><![CDATA[姓]]></placeholder>
+            <errormsg><![CDATA[请输入您的姓氏]]></errormsg>
+			<errormsg2><![CDATA[姓应至少有2个字符长。]]></errormsg2>
+		</inputLastName>
+		<inputEmail>
+			<placeholder><![CDATA[电子邮件地址]]></placeholder>
+		</inputEmail>
+		<inputPassword>
+			<placeholder><![CDATA[密码]]></placeholder>
+		</inputPassword>
+        <inputLang>
+            <txtdob><![CDATA[选择语言]]></txtdob>
+        </inputLang>
+		
+        <inputDOB>
+            <txtdob><![CDATA[出生日期]]></txtdob>
+			<placeholder><![CDATA[DD:MM:YY]]></placeholder>
+		</inputDOB>
+		<selectNationality>
+		    <placeholder><![CDATA[选择国籍]]></placeholder>
+            <error><![CDATA[请选择您所在的国家]]></error>
+		</selectNationality>
+		<selectCOR>
+			<placeholder><![CDATA[选择您所住的国家e]]></placeholder>
+            <error><![CDATA[请选择您所长住的国家]]></error>
+		</selectCOR>
+		<selectJobFunction>
+		</selectJobFunction>
+		<selectExpLevel>
+		</selectExpLevel>
+		<selectIndustry>
+		</selectIndustry>
+	 </form>
+  </profile>
+  
+  <deleteaccount>
+     <title><![CDATA[删除帐户]]></title>
+	 <paragraph><![CDATA[删除您的帐户将做到以下几点：]]></paragraph>
+	 <lists>
+			<list><![CDATA[从PicMealUp删除您的帐户]]></list>
+			<list><![CDATA[从PicMealUp联系人列表中删除你]]></list>
+			<list><![CDATA[清除您的移动设备上的历史记录]]></list>
+	 </lists>
+	 <btndelete><![CDATA[刪除]]></btndelete>
+  </deleteaccount>
+
+  
+  <setting>
+     <title><![CDATA[设定]]></title>
+	 <lists class="upper">
+         <list><![CDATA[<span class="upgrade-icon pull-left"></span>Upgrade to Premium: US$1.99 <br><small>Chinese and Japanese languages included. No ads</small> <i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+         <list><![CDATA[<span class="restore-icon pull-left"></span>Restore Purchase  <i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[<span class="login-icon pull-left"></span>登录 <i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[<span class="login-icon pull-left"></span>注销 <i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[<span class="profile-icon pull-left"></span>简介<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[<span class="deleteaccount-icon pull-left"></span>删除帐户<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[<span class="pull-left glyphicon glyphicon-refresh"></span>更改密码<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+            <list><![CDATA[<span class="tellafriend-icon pull-left"></span>推荐给朋友 <i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[<span class="camera-icon2 pull-left"></span>关于 PicMealUp 的应用<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+	 </lists>
+	<!-- <paragraph class="text-pink text-center"><![CDATA[雜項]]></paragraph>
+	 <lists class="lower">
+			<list><![CDATA[<span class="tellafriend-icon pull-left"></span>推荐给朋友 <i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[<span class="camera-icon2 pull-left"></span>关于 PicMealUp 的应用<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+	 </lists>-->
+  </setting>
+  
+  <tellafriend>
+     <title><![CDATA[告訴你的朋友]]></title>
+	 <lists>
+			<list><![CDATA[ <a href="mailto:?body=Hey there I am using PicMealUp"><span class="email-icon pull-left"></span>电子邮件<i class="glyphicon glyphicon-chevron-right"></a></i>]]></list>
+			<list><![CDATA[ <a href="sms: ;body:Hey there I am using PicMealUp"><span class="messge-icon pull-left"></span>留言<i class="glyphicon glyphicon-chevron-right"></i></a>]]></list>
+			<list><![CDATA[<a href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=PicMealUp','_blank','location=yes')"><span class="facebook-icon pull-left"></span>Facebook<i class="glyphicon glyphicon-chevron-right"></i></a>]]></list>
+			<list><![CDATA[<a href="javascript:window.open('https://twitter.com/share?source=tweetbutton&text=PicMealUp&url=myurl','_blank','location=yes')"><span class="twitter-icon pull-left"></span>Twitter<i class="glyphicon glyphicon-chevron-right"></i></a>]]></list>
+	 </lists>
+  </tellafriend>
+  
+  <about>
+     <title><![CDATA[關於]]></title>
+	 <paragraph class="text-center text-bold"><![CDATA[<strong>版权及复印件;保由 Khakhon Som 所有 - 2014</strong>]]></paragraph>
+	 <lists>
+	        <list><![CDATA[關於 PicMealUp<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[連絡人<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[常見問題<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+	 </lists>
+  </about>
+   
+  
+  <aboutpicmealup>
+     <title><![CDATA[关于 PicMealUp 的应用]]></title>
+	 <contents>
+	    <content>
+		    <heading><![CDATA[<strong>PicMealUp 是什么？</strong>]]></heading>
+	        <paragraph><![CDATA[PicMealUp 指将美食图片聚集起来......它不仅仅是一个手机的应用程序，它可以帮助找到从餐厅的菜单上找到美食的照片。]]></paragraph>
+		</content>
+		
+		<content>
+		    <heading><![CDATA[<strong>为什么要用 PicMealUp？</strong>]]></heading>
+	        <paragraph><![CDATA[当你到国外出差或旅行时，餐厅的菜单通常是一种你不了解的语言并且没有图片，这时您会很头痛怎么点餐。]]></paragraph>
+			<paragraph><![CDATA[如果有 PicMealUp，你不需要会讲外语，只需要拍一张菜单的照片，选择美食的名字，就搜索这道美食的图片。 ]]></paragraph>
+			<paragraph><![CDATA[有了图片，你知道这到美食是什么样子，这样就可以帮助正确的吃你想要吃的东西了。]]></paragraph>
+		</content>
+		
+		<content>
+		    <heading><![CDATA[<strong>谁需要 PicMealUp？</strong>]]></heading>
+	        <paragraph><![CDATA[作为经常旅行的我，因为上述原因， 我常发现当餐厅的菜单在我手里的时候自己很无助。]]></paragraph>
+			<paragraph><![CDATA[所以我创建PicMealUp，这样来可以在任何地方帮助旅客找到的美食的图片，让大家知道我们如何点餐，从而发现新的味道，新的风味，从而享受美食。]]></paragraph>
+		</content>
+	 </contents>
+	 
+  </aboutpicmealup>
+  
+  <contact>
+       <title><![CDATA[联系我们]]></title>
+	   <btnsend><![CDATA[發送]]></btnsend>
+	 <paragraph class="text-center text-bold"><![CDATA[<strong>请描述您的问题：</strong>]]></paragraph>
+     <inputArea>
+	     <placeholder><![CDATA[簽寫留言]]></placeholder>
+	 </inputArea>>
+  </contact>
+  
+  <allcontactlists>
+    <title><![CDATA[聯繫方式]]></title>
+	<noresult><![CDATA[在聯繫人列表中沒有成員]]></noresult>
+  </allcontactlists>
+  
+  <faq>
+     <title><![CDATA[常见问题]]></title>
+	 <infotext><![CDATA[PicMealUp支持慈善项目<a href="javascript:;">www.breakfastforsmile.com</a>]]></infotext>
+	 <accordion>
+	     <panel>
+		   <paneltitle><![CDATA[什么是www.breakfastforsmile.com？ ]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[在柬埔寨的农村地区，孩子们需要空着肚子走好几公里去上学。 ]]></paragraph>
+				 <paragraph><![CDATA[他们很多人饥饿的坐在炎热和拥挤的教室里，大多数都会失去注意力和集中力。]]></paragraph>
+				 <paragraph><![CDATA[Breakfast for Smile 宗旨是为每一个孩子在上学前提供早餐。 ]]></paragraph>
+				 <paragraph><![CDATA[The Breakfast For Smile 的货车将美味的早餐送到学生所在农村地区或是位于他们学校前面公园。]]></paragraph>
+				 <paragraph><![CDATA[每日丰盛的早餐包括粥或面条，煎鸡蛋和水果。]]></paragraph>
+				 <paragraph><![CDATA[通过使用PicMealUp，同一时间你也支持了慈善项目<a href='javascript:;'>www.breakfastforsmile.com</a>。事实上，我们计划在不久的将来，我们会推出PicMealUp付费版的广告模式来获取收入，我们承诺将收入的20%用来支持<a href='javascript:;'>www.breakfastforsmile.com</a>。]]></paragraph>
+
+			</panelbody>
+		</panel>
+	    <panel>
+		    <paneltitle><![CDATA[什么是OCR？]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[OCR是英文Optical Character Recognition 的缩写，意思是光学字符识别，也可简单地称为文字识别，是文字自动输入的一种方法。它通过扫描和摄像等光学输入方式获取纸张上的文字图像信息，利用各种模式识别算法分析文字形态特征，判断出汉字的标准编码，并按通用格式存储在文本文件中，所以，OCR是一种非常快捷、省力的文字输入方式，也是在文字量比较大的今天，很受人们欢迎的一种输入方式]]></paragraph>
+			</panelbody>
+		</panel>
+		<panel>
+		    <paneltitle><![CDATA[我如何使用PicMealUp？]]></paneltitle>
+			<panelbody>
+			     <paragraph ><![CDATA[要使用PicMealUp，很简单：]]></paragraph>
+				 <lists>
+			        <list><![CDATA[用您手机的相机功能拍一张餐厅菜单的照片]]></list>
+			        <list><![CDATA[转换，通过OCR技术，菜单会变成电子可读的文本]]></list>
+					<list><![CDATA[确定美食的名称，然后进行搜索]]></list>
+					<list><![CDATA[查看美食的照片，并添加到您的点餐订单列表]]></list>
+	             </lists>
+			</panelbody>
+		</panel>
+		
+		<panel>
+		    <paneltitle><![CDATA[我该如何选择美食的名字进行搜索？]]></paneltitle>
+			<panelbody>
+				 <lists>
+			        <list><![CDATA[从扫描菜单中，点美食的任何名称，然后显示功能“定义|搜索和显示图片” <div class="clearfix"></div> <img class="img-responsive" src="images/meal-menu.png" />]]></list>
+			        <list><![CDATA[调整选择美食名称]]></list>
+					<list><![CDATA[点击“搜索和显示图片“]]></list>
+	             </lists>
+			</panelbody>
+		</panel>
+		<panel>
+		    <paneltitle><![CDATA[如何删除我的帐户？]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[打开PicMealUp，去PicMealUp设定>删除帐号]]></paragraph>
+			</panelbody>
+		</panel>
+		
+		<panel>
+		    <paneltitle><![CDATA[如何举报滥用的联系人？]]></paneltitle>
+			<panelbody>
+			     <lists>
+			        <list><![CDATA[打开PicMealUp，去PicMealUp聊天>附近的会员]]></list>
+			        <list><![CDATA[点击其中的联系人姓名]]></list>
+					<list><![CDATA[点击举报]]></list>
+					<list><![CDATA[选择举报类型]]></list>
+	             </lists>
+			     <paragraph><![CDATA[您已标记此会员为的举报会员，此会员会消失在您的会员列表中，您将不会收到他的任何信息。]]></paragraph>
+			</panelbody>
+		</panel>
+		
+		<panel>
+		    <paneltitle><![CDATA[如何封锁或解除封锁我的联系人？]]></paneltitle>
+			<panelbody>
+			     <lists>
+			        <list><![CDATA[打开PicMealUp，去PicMealUp聊天>附近的会员]]></list>
+			        <list><![CDATA[点击其中的联系人姓名]]></list>
+					<list><![CDATA[点击举报]]></list>
+					<list><![CDATA[检查举报的类型来封锁或解除封锁锁联系人]]></list>
+	             </lists>
+			     <paragraph><![CDATA[您已标记此会员为的举报会员，此会员会消失在您的会员列表中，您将不会收到他的任何信息。]]></paragraph>
+			</panelbody>
+		</panel>
+		
+		<panel>
+		    <paneltitle><![CDATA[我无法连接到PicMealUp！]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[在极少数情况下，您可能会遇到连接PicMealUp问题。]]></paragraph>
+				 <paragraph><![CDATA[这通常是由与移动设备的互联网连接，或与您的无线运营商和互联网服务提供商的问题所引起的。]]></paragraph>
+				 <paragraph><![CDATA[通常网络连接的问题可以通过检查你的移动设备的设置参数来解决。
+                                         移动设备>设置Wi-Fi]]></paragraph>
+			</panelbody>
+		</panel>
+                                          
+		<panel>
+		    <paneltitle><![CDATA[如何邀请好友加入PicMealUp？]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[如果你的朋友尚未使用PicMealUp，你可以通过简单的方法来邀请他们加入！]]></paragraph>
+				 <paragraph><![CDATA[您可以通过我们的 PicMealUp 邀请好友/邀请功能。]]></paragraph>
+                 <lists>
+			        <list><![CDATA[打开PicMealUp，PicMealUp设置>推荐给朋友]]></list>
+			        <list><![CDATA[选择你希望邀请您的朋友的其他方式，通过电子邮件，短信，Facebook或Twitter]]></list>
+	             </lists>
+			</panelbody>
+		</panel>
+	
+		
+		<panel>
+		    <paneltitle><![CDATA[我PicMealUp帐户已被停用！]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[我们会停用帐户，如果我们发现帐户活动违反了我们的服务条款。请仔细阅读我们的服务条款，详细了解PicMealUp的适当用途。]]></paragraph>
+				 <paragraph><![CDATA[我们不会告知每个帐户被撤销的具体原因。不过，如果你违反以下的情况，那会导致我们停用您的账户。]]></paragraph>
+                 <lists>
+			        <list><![CDATA[发送广告或以其他任何形式进行商业活动。]]></list>
+					<list><![CDATA[发送垃圾邮件或来路不明的邮件。]]></list>
+					<list><![CDATA[提交的内容，个人资料，图片或消息，违反我们的服务条款，如非法，淫秽，威胁，骚扰，仇恨种族或民族冒犯或任何其他不当材料。]]></list>
+					<list><![CDATA[造成他人困扰。]]></list>
+					<list><![CDATA[重复侵权。]]></list>
+					<list><![CDATA[使用未经授权/非官方客户端的自动应用程序通过PicMealUp发送短信。]]></list>
+	             </lists>
+				 <paragraph><![CDATA[请注意，我们可能不会在停用您的帐户之前发出警告。如果您认为您的帐户被停用有误，您可以给我们发电子邮件，我们从新处理。]]></paragraph>
+				 <paragraph><![CDATA[您的帐户被停用72小时后，你的朋友将不会在PicMealUp看到你的详情。]]></paragraph>
+				 <paragraph><![CDATA[请注意，PicMealUp保留权利拒绝服务，恕不另行通知，由我们自行决定。]]></paragraph>
+			</panelbody>
+		</panel>
+		
+		<panel>
+		    <paneltitle><![CDATA[自由搜索的美食图片或通过PicMealUp发送信息是免费的吗？]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[只要你的手机有足够的上网数据流量，它就可以免费搜索的美食图片或收发信息PicMealUp。]]></paragraph>
+				 <paragraph><![CDATA[PicMealUp使用手机的互联网功能进行查询美食的图片或发送和接收信息，图片，音频，视频，收查位置和联系人。只要你的手机不是运用漫游，并且您还没有超过您的网络数据流量限制，PicMealUp应该不会超出您的花费。]]></paragraph>
+				 <paragraph><![CDATA[如果您关注的是数据流量的使用，如果可能的话，我们建议您使用Wi-Fi连接。]]></paragraph>
+			</panelbody>
+		</panel>
+		
+		<panel>
+		    <paneltitle><![CDATA[苹果设备的支持？]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[PicMealUp需要iPhone iOS4.3或更高版本。为获得最佳体验，我们推荐您使用手机iOS提供的最新版本。请仔细阅读本苹果支持文章（http://support.apple.com/kb/HT4623），以便了解如何更新你的iPhone的软件。]]></paragraph>
+				 <paragraph><![CDATA[请注意：iPod设备不支持。]]></paragraph>
+
+			</panelbody>
+		</panel>
+		<panel>
+		   <paneltitle><![CDATA[PicMealUp聊天对话每24小时会被删除！]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[当您发送或接收消息时，我们暂时把这些信息存储在接收者的设备上。（如照片，视频，字幕和/或聊天对话）。]]></paragraph>
+				 <paragraph><![CDATA[一旦所有收件人都看到消息，我们会每24小时自动删除收件人的设备中PicMealUp应用程序的消息。]]></paragraph>
+				 <paragraph><![CDATA[此外，我们不能保证删除任何消息总是出现一个特定的时间范围内。我们也不能阻止其他人使用你的信息的副本（例如，通过采取截图）。如果我们能够检测到接收方运用你所发送的聊天截图，我们将尝试通知您。]]></paragraph>
+				 <paragraph><![CDATA[如果您不想收件人保留副本，我们建议不要使用PicMealUp发送消息。]]></paragraph>
+
+			</panelbody>
+		</panel>
+	   
+		
+	 </accordion>
+  </faq> 
+ </section>
+ <tooltip>
+     <txtdefine><![CDATA[限定]]></txtdefine>
+	 <txtsearch><![CDATA[搜索并显示图片]]></txtsearch>
+	 <inputtxt>
+	   <placeholder><![CDATA[]]></placeholder>
+	 </inputtxt>
+  </tooltip>
+  <jAlert>
+     <Messages>
+	   <msg1><![CDATA[您确定要删除您的帐户？]]></msg1>
+	   <msg2><![CDATA[您确定要删除所有的对话？]]></msg2>
+	   <msg3><![CDATA[你确定要删除此选择的美食吗？]]></msg3>
+	   <msg4><![CDATA[您确定要删除这个？]]></msg4>
+       <msg5><![CDATA[你想刪除的聊天列表這個會員嗎？]]></msg5>
+        <msg6><![CDATA[PicMealUp無法找到您的位置。]]></msg6>
+        <msg7><![CDATA[您確定要刪除這個會員？]]></msg7>
+	 </Messages>
+     <alertmessage><![CDATA[留言]]></alertmessage>
+     <confirmmessage><![CDATA[确认]]></confirmmessage>
+	  <okbutton><![CDATA[Ok]]></okbutton>
+	 <cancelbutton><![CDATA[取消]]></cancelbutton>
+  </jAlert>
+ </structure>
+
+
+
+
+
+
+
+
+
+
+
+

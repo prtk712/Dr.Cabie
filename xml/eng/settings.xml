@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <structure>
+  
+ <popups>
+     <popupselectlanguage>
+	     <title></title>
+		 <body>
+		   <option><![CDATA[Select Language for Scanning]]></option>
+		 </body>
+         <donebtn><![CDATA[Cancel]]></donebtn>
+	 </popupselectlanguage>
+	 
+	 <addcontact>
+	     <title><![CDATA[Success]]></title>
+		  <body><![CDATA[Member has been added to contact list]]></body>
+	 </addcontact>
+	 
+	 <popupLoginFailed>
+	     <title><![CDATA[Error]]></title>
+		  <body><![CDATA[Invalid credentials. Please try again]]></body>
+	 </popupLoginFailed>
+     
+	 <purchaseLoginFailed>
+         <title><![CDATA[Error]]></title>
+         <body><![CDATA[Please login first to upgrade to premium.]]></body>
+     </purchaseLoginFailed>
+     <purchaseFailed>
+         <title><![CDATA[Error]]></title>
+         <body><![CDATA[Purchase error: Please try again later.]]></body>
+     </purchaseFailed>
+     <purchaserestore>
+         <title><![CDATA[Success]]></title>
+		 <body><![CDATA[Purchases has been restored successfully]]></body>
+     </purchaserestore>
+	 <sndgrt>
+	     <title><![CDATA[Success]]></title>
+		 <body><![CDATA[Greeting has been sent successfully.]]></body>
+	 </sndgrt>
+     
+     <popupNetworkFailed>
+         <title><![CDATA[Information]]></title>
+         <body><![CDATA[Internet connectivity is required.]]></body>
+     </popupNetworkFailed>
+	 
+	 <errorsndgrt>
+	     <title><![CDATA[Error]]></title>
+		 <body><![CDATA[Please enter your Greeting.]]></body>
+	 </errorsndgrt>
+	 
+	 <clearconver>
+	     <title><![CDATA[Success]]></title>
+		 <body><![CDATA[You have cleared all the conversation.]]></body>
+	 </clearconver>
+	 
+	 <popupRegisterFailed>
+	     <title><![CDATA[Error]]></title>
+		 <body><![CDATA[Unable to regsiter.]]></body>
+	 </popupRegisterFailed>
+	 
+	 <popupOCR>
+	     <title><![CDATA[Error]]></title>
+		 <body><![CDATA[Unsuccessful conversion of the photo into readable text: Please, take a new photo with higher quality.]]></body>
+	 </popupOCR>
+	 
+	 <popupregister>
+	     <title><![CDATA[Success]]></title>
+		 <body><![CDATA[You have registered successfully.]]></body>
+	 </popupregister>
+	 
+	 <popupLogout>
+	     <title><![CDATA[Success]]></title>
+		 <body><![CDATA[You have logged out successfully.]]></body>
+	 </popupLogout>
+	 
+	 <popupForgotPwd>
+	     <title><![CDATA[Success]]></title>
+		 <body><![CDATA[Your password has been reset. Your new password has been sent to your email address.]]></body>
+	 </popupForgotPwd>
+	 
+	 <popupChangePwd>
+	     <title><![CDATA[Success]]></title>
+		 <body><![CDATA[Your password has been updated successfully.]]></body>
+	 </popupChangePwd>
+	 
+	 <popupChangeFailPwd>
+	     <title><![CDATA[Error]]></title>
+		 <body><![CDATA[Your current password does not match.]]></body>
+	 </popupChangeFailPwd>
+	 
+	 <popupproblem_error>
+	     <title><![CDATA[Error]]></title>
+		 <body><![CDATA[Please describe your problem.]]></body>
+	 </popupproblem_error>
+	 
+	 <popupproblem_success>
+	     <title><![CDATA[Success]]></title>
+		 <body><![CDATA[Your comment has been posted successfully.]]></body>
+	 </popupproblem_success>
+	 
+	 <popupdleteacct>
+	     <title><![CDATA[Success]]></title>
+		 <body><![CDATA[Your account has been deleted successfully.]]></body>
+	 </popupdleteacct>
+	 
+	 <popupEmailFound>
+	     <title><![CDATA[Error]]></title>
+		 <body><![CDATA[Email already exists.]]></body>
+	 </popupEmailFound>
+	 
+	 
+  </popups>
+ <splashContent><![CDATA[<p>Thank you very much. By using PicMealUp, you are also supporting the Charity Project <a href="javascript;;">www.breakfastforsmile.com</a>.
+     Indeed, we plan to generate, in the near future, the revenue by launching the paid version of PicMealUp or the advertising model. Then after, we commit to give 20% of the revenue to support <a href="javascript;;">www.breakfastforsmile.com</a></p>
+     <p>If you would like to join PicMealUp Community, please do create your account and interact with other Members.</p>]]></splashContent>
+ 
+ <section>
+  <splash>
+      <paragraph class="text-center"><![CDATA[Thank you very much for using PicMealUp. By using PicMealUp, you are also supporting the NGO project  www.breakfastforsmile.com. Indeed, we commit to give 20% of the revenue to Breakfast For Smile.]]></paragraph> 
+	  <paragraph class="text-center"><![CDATA[If you would like to join PicMealUp Community, please login or create your account and interact with other Members.]]></paragraph> 
+	  <footer>
+	     <skipbtn><![CDATA[Skip]]></skipbtn>
+	     <loginbtn><![CDATA[Login]]></loginbtn>
+	  </footer>
+  </splash>
+  
+  <home>
+       <title><![CDATA[Home]]></title>
+	<paragraph class="text-center"><![CDATA[PicMealUp helps you to know what to order from a restaurant menu which is not in your language.]]></paragraph> 
+	<paragraph class="text-bold"><![CDATA[<strong>To use PicMealUp, it's simple:</strong>]]></paragraph> 
+	<lists class="default">
+			<list><![CDATA[Take a photo of the restaurant menu. ]]></list>
+			<list><![CDATA[Select the name of the meal, then execute the search to find the related pictures.]]></list>
+			<list><![CDATA[View and add the pictures into your order list.]]></list>
+	</lists>
+  </home>
+
+  <picmeal>
+       <title><![CDATA[Pic Meal]]></title>
+	<paragraph class="text-left"><![CDATA[Thank you very much for using PicMealUp.]]></paragraph> 
+	<paragraph><![CDATA[By using PicMealUp, you are also supporting the NGO project www.breakfastforsmile.com. Indeed, we commit to give 20% of the revenue to Breakfast For Smile]]></paragraph> 
+  </picmeal>
+  
+  <camerapic>
+       <title><![CDATA[Crop Image]]></title>
+	   <infotext><![CDATA[Recognizing… </br>(it can take up to 1 minute)]]></infotext>
+	   <button>
+	   <newpicbtn><![CDATA[<img src="images/camera-icon.png" />Take a New Picture]]></newpicbtn>
+	   <choosepicbtn><![CDATA[<img class="img2" src="images/small-gallery-icon.png" />Choose Existing Picture]]></choosepicbtn>
+	   <scanbtn><![CDATA[<i class="glyphicon glyphicon-search absearch" ></i>Scan &amp; Search]]></scanbtn>
+	   <langbtn><![CDATA[<i class="glyphicon glyphicon-book absearch" ></i>Select Language]]></langbtn>
+	   </button>
+  </camerapic>
+  
+  <picText>
+       <choosepicbtn><![CDATA[Choose Existing Picture]]></choosepicbtn>
+  </picText>
+  
+  <picHelp>
+     <title>Help</title>
+	 <paragraph class="helptext0"><![CDATA[<strong>For best results</strong>]]></paragraph>
+	 <olists class="helplist0">
+			<list><![CDATA[Make sure that the text is on a flat surface, with a good lighting and no shadows. ]]></list>
+			<list><![CDATA[When taking the picture, make sure it is clear. And the bigger the better.]]></list>
+	 </olists>
+	 <paragraph class="helptext1"><![CDATA[<strong>How to select the portion of text?</strong>]]></paragraph>
+	 <olists class="helplist1">
+			<list><![CDATA[Tap the screen during 1 second. ]]></list>
+			<list><![CDATA[When the text selection tool appears, adjust the selection of the text portion.<br/><br/><img class="img-responsive" src="images/meal-menu.png" />]]></list>
+	 </olists>
+	 <paragraph class="helptext2"><![CDATA[<strong>How to execute the search of the pictures of the meal?</strong>]]></paragraph>
+	 <olists class="helplist2">
+			<list><![CDATA[Select the text portion. ]]></list>
+			<list><![CDATA[Tap "Search & Display Pictures"]]></list>
+	 </olists>
+  </picHelp>
+   
+  <picmealfound>
+     <title><![CDATA[Picture Meal Found]]></title>
+	 <paragraph class="toppic"><![CDATA[Top  <span class="countimg"></span> of pictures found for:<span class="searchtext"></span>]]></paragraph>
+	 <paragraph class="searchtext"><![CDATA[Display here the search keywords]]></paragraph>
+	 <paragraph class="noresultf"><![CDATA[No Result Found]]></paragraph>
+	 <btnorder><![CDATA[Add To Orderlist]]></btnorder> 
+  </picmealfound>
+ 
+  <gallery>
+     <title>Gallery</title>
+     <searchbtn><![CDATA[Search]]></searchbtn>
+     <placeholder><![CDATA[Seacrch Meal]]></placeholder>
+	 <paragraph class="noresultf"><![CDATA[No Result Found]]></paragraph>
+	 <table>
+	   <thcol1><![CDATA[Meals]]></thcol1>
+	   <thcol2><![CDATA[Pictures]]></thcol2>
+	 </table>
+  </gallery>
+  
+  <addnew>
+     <title>Add New Meal</title>
+     <savebtn><![CDATA[save]]></savebtn>
+	 <paragraph class="noresultf"><![CDATA[No Result Found]]></paragraph>
+	 <table>
+	   <thcol1><![CDATA[Meals]]></thcol1>
+	   <thcol2><![CDATA[Pictures]]></thcol2>
+	 </table>
+	 <entermealtxt><![CDATA[Enter meal name]]></entermealtxt>
+  </addnew>
+  
+  <orderlist>
+     <title><![CDATA[Order List]]></title>
+	 <paragraph><![CDATA[Please, I would like to order the meals below]]></paragraph>
+	 <sfilter>
+	    <option><![CDATA[Vegetarian]]></option>
+		<option><![CDATA[No Pork]]></option>
+		<option><![CDATA[No Beef]]></option>
+		<option><![CDATA[No Seafood]]></option>
+		<option><![CDATA[No Spicy]]></option>
+		<option><![CDATA[Less Spicy]]></option>
+		<option><![CDATA[No Sugar]]></option>
+		<option><![CDATA[Less Sugar]]></option>
+		<option><![CDATA[Halal]]></option>
+		<option><![CDATA[Rare]]></option>
+		<option><![CDATA[Medium]]></option>
+		<option><![CDATA[Well Done]]></option>
+	 </sfilter>
+	 <table>
+	    <col1text><![CDATA[Meals]]></col1text>
+		<col2text><![CDATA[Pictures]]></col2text>
+	 </table> 
+	 <txtlocallng><![CDATA[Label in Local Language]]></txtlocallng>
+	 <txttrvllng><![CDATA[Label in the Traveler Language]]></txttrvllng>
+  </orderlist> 
+   
+  <managePicMeal>
+     <title><![CDATA[Manage Picture Meal]]></title>
+	 <table>
+	    <col1text><![CDATA[Meals]]></col1text>
+	    <col2text><![CDATA[Picture]]></col2text>		
+	 </table>
+     <txttrvllng><![CDATA[Name of the meal in the traveler language]]></txttrvllng>
+	 <txtnewlng><![CDATA[Add new field to enter the name of the meal in new language]]></txtnewlng>
+     <addnewlng><![CDATA[Please enter name of the meal.]]></addnewlng>
+	 <buttons>
+	   <btn1><![CDATA[Take a New Photo]]></btn1>
+	   <btn2><![CDATA[Use Existing]]></btn2>
+	   <btn3><![CDATA[Cancel]]></btn3>
+	 </buttons>
+	 
+	 <footerbuttons>
+	   <btn1><![CDATA[Cancel]]></btn1>
+	   <btn2><![CDATA[Delete]]></btn2>
+	   <btn3><![CDATA[Save]]></btn3>
+	 </footerbuttons>
+	 
+  </managePicMeal> 
+  
+  <chat>
+     <title><![CDATA[Chat]]></title>
+	 <lists>
+			<list><![CDATA[Members Nearby <i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<!--<list><![CDATA[Chat<img class="notifyimg" src="images/notify-icon2.png" /><i class="glyphicon glyphicon-chevron-right"></i>]]></list>-->
+			<list><![CDATA[Chat<span class="counterflag notification">56</span><i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+            <list><![CDATA[Clear All Conversations<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[Contacts<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[Notification <span class="counterflag notification">56</span><i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+	 </lists>
+  </chat>
+  
+  <notificatesection>
+    <title><![CDATA[Notification]]></title>
+  </notificatesection>
+  
+  <notificationdetail>
+     <title><![CDATA[Notification Detail]]></title>
+	 <txtchatbtn><![CDATA[Chat]]></txtchatbtn>
+  </notificationdetail>
+  
+  
+  <chatlist>
+      <title><![CDATA[Chat List]]></title>
+  </chatlist>
+  
+  <chatConversation>
+     <title><![CDATA[Conversation]]></title>
+	 <placeholder>
+	   <txtmsg><![CDATA[Message]]></txtmsg>
+	 </placeholder>
+	 <btnmsgbyme><![CDATA[Send]]></btnmsgbyme>
+	 <txtmsgplaceholder><![CDATA[Type your message]]></txtmsgplaceholder>
+     <nouserlist><![CDATA[Currently you have no friends in your chat list. Please initiate chat from Members nearby me section.]]></nouserlist>
+  </chatConversation>
+
+  <membernearby>
+     <title><![CDATA[Members Nearby]]></title>
+	 <paragraph><![CDATA[PicMealUp Members Nearby You.]]></paragraph>
+  </membernearby>
+
+  <membernearbydetail>
+     <title><![CDATA[Members Nearby]]></title>
+	 <paragraph><![CDATA[Members of PictureMeal Nearby you.]]></paragraph>
+	 <options>
+	   <option><![CDATA[Chat]]></option>
+	   <option><![CDATA[Send Greeting]]></option>
+	   <option><![CDATA[Report Abuse]]></option>
+	 </options>
+  </membernearbydetail>
+  
+  <chatbydetail>
+    <title><![CDATA[Contacts]]></title>
+	<options>
+	   <option><![CDATA[Chat]]></option>
+	   <option><![CDATA[Send Greeting]]></option>
+	   <option><![CDATA[Report Abuse]]></option>
+	 </options>
+  </chatbydetail>
+  
+  <sendgreeting>
+       <title><![CDATA[Send Greeting]]></title>
+	   <btnsend><![CDATA[Send]]></btnsend>
+	 <paragraph><![CDATA[Please, enter your greeting below:]]></paragraph>
+	 <placeholder>
+	    <inputarea><![CDATA[Write your message here.]]></inputarea>
+	 </placeholder>
+  </sendgreeting>
+  
+  
+  
+  <reportabuse>
+       <title><![CDATA[Report Abuse]]></title>
+	   <btnsend><![CDATA[Send]]></btnsend>
+	 <lists>
+			<list><![CDATA[Porn]]></list>
+			<list><![CDATA[Harassment]]></list>
+			<list><![CDATA[Politics Propaganda]]></list>
+			<list><![CDATA[Scam]]></list>
+			<list><![CDATA[Copyright Infringement]]></list>
+			<list><![CDATA[Blacklist]]></list>
+			<list><![CDATA[Others]]></list>
+	 </lists>
+  </reportabuse>
+  
+  <reportabusesuccess>
+       <title><![CDATA[Report Abuse Success]]></title>
+	   <btndone><![CDATA[Done]]></btndone>
+ <paragraph><![CDATA[PicMealUp prohibits the sharing of any pornographic, harassment, propaganda, violent or fraudulent material.]]></paragraph>
+     <paragraph><![CDATA[We take all complaints seriously to ensure a safe social networking environment.]]></paragraph>
+  </reportabusesuccess>
+  
+  <login>
+     <title><![CDATA[Login]]></title>
+	 <inputusername>
+	    <placeholder><![CDATA[Email Address]]></placeholder>
+		<errormsg><![CDATA[Please enter correct email address!]]></errormsg>
+	 </inputusername>
+	 <inputpwd>
+	    <placeholder><![CDATA[Password]]></placeholder>
+		<errormsg><![CDATA[Please enter Password!]]></errormsg>
+	 </inputpwd>
+	 <btnlogin><![CDATA[Log In]]></btnlogin>
+	 <btnforgotpwd><![CDATA[Forgot Password? click here]]></btnforgotpwd>
+	 <btnsignup><![CDATA[Sign Up]]></btnsignup>
+  </login>
+ 
+  <forgotpassword>
+	 <title>Forgot Password</title>
+	 <inputusername>
+	    <placeholder><![CDATA[Email Address]]></placeholder>
+		<errormsg><![CDATA[Please enter correct email address!]]></errormsg>
+	 </inputusername>
+	<btnforgotpwd><![CDATA[Submit]]></btnforgotpwd>
+	<btnlogin><![CDATA[Login]]></btnlogin>
+ </forgotpassword>
+ 
+  <resetPassword>
+   <title><![CDATA[Reset Password]]></title>
+   <inputusername>
+	    <placeholder><![CDATA[Current Password]]></placeholder>
+		<errormsg><![CDATA[Please enter your current password!]]></errormsg>
+	 </inputusername>
+	 <inputpwd>
+	    <placeholder><![CDATA[New Password]]></placeholder>
+		<errormsg><![CDATA[Please enter your new password!]]></errormsg>
+	 </inputpwd>
+	 <inputcpwd>
+	    <placeholder><![CDATA[Confirm New Password]]></placeholder>
+		<errormsg><![CDATA[Password does not match]]></errormsg>
+	 </inputcpwd>
+	 <btnsubmit><![CDATA[Submit]]></btnsubmit>
+  </resetPassword>
+ 
+  <signup>
+     <title><![CDATA[Sign Up]]></title>
+	 <paragraph class="text-left text-bold"><![CDATA[<strong>Please, register to chat with  Members nearby</strong>]]></paragraph> 
+	 <form>
+	    <inputPic>
+		    <title><![CDATA[+ Add your picture]]></title>
+			<errormsg><![CDATA[Please select your pic]]></errormsg>
+		</inputPic>
+		<inputGender>
+		    <value1><![CDATA[M]]></value1>
+			<value2><![CDATA[F]]></value2>
+			<label1><![CDATA[Male]]></label1>
+			<label2><![CDATA[Female]]></label2>
+			<errormsg><![CDATA[Please select your gender]]></errormsg>
+		</inputGender>
+		<inputFirstName>
+			<placeholder><![CDATA[First Name]]></placeholder>
+			<errormsg><![CDATA[Please enter your first Name]]></errormsg>
+			<errormsg2><![CDATA[First Name should be atleast 2 character long.]]></errormsg2>
+		</inputFirstName>
+		<inputLastName>
+			<placeholder><![CDATA[Last Name]]></placeholder>
+			<errormsg><![CDATA[Please enter your Last Name]]></errormsg>
+			<errormsg2><![CDATA[Last Name should be atleast 2 character long.]]></errormsg2>
+		</inputLastName>
+		<inputEmail>
+			<placeholder><![CDATA[Email Address]]></placeholder>
+			<errormsg><![CDATA[Please enter correct Email Address]]></errormsg>
+		</inputEmail>
+		<inputPassword>
+			<placeholder><![CDATA[Password]]></placeholder>
+			<errormsg><![CDATA[Please enter your password]]></errormsg>
+			<errormsg2><![CDATA[Password should be atleast 2 character long.]]></errormsg2>
+		</inputPassword>
+        <inputLang>
+             <txtdob><![CDATA[Select Language]]></txtdob>
+        </inputLang>
+		<inputDOB>
+		    <txtdob><![CDATA[Date Of Birth]]></txtdob>
+			<placeholder><![CDATA[DD:MM:YY]]></placeholder>
+			<errormsg><![CDATA[Please enter your Date of Birth]]></errormsg>
+		</inputDOB>
+		<selectNationality>
+		    <placeholder><![CDATA[Select your Nationality]]></placeholder>
+		    <option1><![CDATA[Select your Nationality]]></option1>
+			<error><![CDATA[Please select your country]]></error>
+		</selectNationality>
+		<selectCOR>
+			<placeholder><![CDATA[Select your country of residence]]></placeholder>
+		    <option1><![CDATA[Select your country of residence]]></option1>
+			<error><![CDATA[Please select your country of residence]]></error>
+		</selectCOR>
+		<selectJobFunction>
+		    <option1><![CDATA[Select your Job Function]]></option1>
+			<error><![CDATA[please select your Job Function]]></error>
+		</selectJobFunction>
+		<selectExpLevel>
+		    <option1><![CDATA[Select your Experience Level]]></option1>
+			<error><![CDATA[please select Experience Level]]></error>
+		</selectExpLevel>
+		<selectIndustry>
+		    <option1><![CDATA[Select your Industry]]></option1>
+			<error><![CDATA[please select your Industry]]></error>
+		</selectIndustry>
+		<btnsubmit><![CDATA[Save]]></btnsubmit> 
+	 </form>	 
+  </signup>
+  
+  <profile>
+       <title><![CDATA[Profile]]></title>
+	   <btnsubmit><![CDATA[Save]]></btnsubmit>
+
+	 <form>
+	    <inputPic>
+		    <title><![CDATA[Change your picture]]></title>
+		</inputPic>
+		<inputGender>
+		    <value1><![CDATA[M]]></value1>
+			<value2><![CDATA[F]]></value2>
+			<label1><![CDATA[Male]]></label1>
+			<label2><![CDATA[Female]]></label2>
+		</inputGender>
+		<inputFirstName>
+			<placeholder><![CDATA[First Name]]></placeholder>
+            <errormsg><![CDATA[Please enter your first Name]]></errormsg>
+			<errormsg2><![CDATA[First Name should be atleast 2 character long.]]></errormsg2>
+		</inputFirstName>
+		<inputLastName>
+			<placeholder><![CDATA[Last Name]]></placeholder>
+            <errormsg><![CDATA[Please enter your last Name]]></errormsg>
+			<errormsg2><![CDATA[Last Name should be atleast 2 character long.]]></errormsg2>
+		</inputLastName>
+		<inputEmail>
+			<placeholder><![CDATA[Email Address]]></placeholder>
+		</inputEmail>
+		<inputPassword>
+			<placeholder><![CDATA[Password]]></placeholder>
+		</inputPassword>
+        <inputLang>
+            <txtdob><![CDATA[Select Language]]></txtdob>
+        </inputLang>
+		<inputDOB>
+            <txtdob><![CDATA[Date Of Birth]]></txtdob>
+			<placeholder><![CDATA[DD:MM:YY]]></placeholder>
+		</inputDOB>
+		<selectNationality>
+		    <placeholder><![CDATA[Select your Nationality]]></placeholder>
+            <error><![CDATA[Please select your country]]></error>
+		</selectNationality>
+		<selectCOR>
+			<placeholder><![CDATA[Select your country of residence]]></placeholder>
+            <error><![CDATA[Please select your country of residence]]></error>
+		</selectCOR>
+		<selectJobFunction>
+		</selectJobFunction>
+		<selectExpLevel>
+		</selectExpLevel>
+		<selectIndustry>
+		</selectIndustry>
+	 </form>
+  </profile>
+  
+  <deleteaccount>
+     <title><![CDATA[Delete Account]]></title>
+	 <paragraph><![CDATA[Deleting your account will do the following:]]></paragraph>
+	 <lists>
+			<list><![CDATA[Delete your account from PicMealUp]]></list>
+			<list><![CDATA[Delete your from PicMealUp  Contact  list]]></list>
+			<list><![CDATA[Erase your message history on your mobile device]]></list>
+	 </lists>
+	 <btndelete><![CDATA[Delete]]></btndelete>
+  </deleteaccount>
+
+  
+  <setting>
+     <title><![CDATA[Setting]]></title>
+	 <lists class="upper">
+         <list><![CDATA[<span class="upgrade-icon pull-left"></span>Upgrade to Premium: US$1.99 <br><small>Chinese and Japanese languages included. No ads</small> <i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+         <list><![CDATA[<span class="restore-icon pull-left"></span>Restore Purchase  <i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[<span class="login-icon pull-left"></span>Login <i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[<span class="login-icon pull-left"></span>Logout <i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[<span class="profile-icon pull-left"></span>Profile<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[<span class="deleteaccount-icon pull-left"></span>Delete Account<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[<span class="pull-left glyphicon glyphicon-refresh"></span>Change Password<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+            <list><![CDATA[<span class="tellafriend-icon pull-left"></span>Tell A Friend <i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[<span class="camera-icon2 pull-left"></span>About PicMealUp App<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+	 </lists>
+	<!-- <paragraph class="text-pink text-center"><![CDATA[Miscellaneous]]></paragraph>
+	 <lists class="lower">
+			<list><![CDATA[<span class="tellafriend-icon pull-left"></span>Tell A Friend <i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[<span class="camera-icon2 pull-left"></span>About PicMealUp App<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+	 </lists>-->
+  </setting>
+  
+  <tellafriend>
+     <title><![CDATA[Tell A Friend]]></title>
+	 <lists>
+			<list><![CDATA[ <a href="mailto:?body=Hey there I am using PicMealUp"><span class="email-icon pull-left"></span>Email<i class="glyphicon glyphicon-chevron-right"></a></i>]]></list>
+			<list><![CDATA[ <a href="sms: ;body:Hey there I am using PicMealUp"><span class="messge-icon pull-left"></span>Message<i class="glyphicon glyphicon-chevron-right"></i></a>]]></list>
+			<list><![CDATA[<a href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=PicMealUp','_blank','location=yes')"><span class="facebook-icon pull-left"></span>Facebook<i class="glyphicon glyphicon-chevron-right"></i></a>]]></list>
+			<list><![CDATA[<a href="javascript:window.open('https://twitter.com/share?source=tweetbutton&text=PicMealUp&url=myurl','_blank','location=yes')"><span class="twitter-icon pull-left"></span>Twitter<i class="glyphicon glyphicon-chevron-right"></i></a>]]></list>
+	 </lists>
+  </tellafriend>
+  
+  <about>
+     <title><![CDATA[About]]></title>
+	 <paragraph class="text-center text-bold"><![CDATA[<strong>Copyright &copy; 2014 - Khakhon Som All rights reserved</strong>]]></paragraph>
+	 <lists>
+	        <list><![CDATA[About PicMealUp<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[Contact<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+			<list><![CDATA[FAQ<i class="glyphicon glyphicon-chevron-right"></i>]]></list>
+	 </lists>
+  </about>
+   
+  
+  <aboutpicmealup>
+     <title><![CDATA[About PicMealUp]]></title>
+	 <contents>
+	    <content>
+		    <heading><![CDATA[<strong>What ?</strong>]]></heading>
+	        <paragraph><![CDATA[PicMealUp means Picture Meal Up  … Simply because PicMealUp is a mobile application which helps to find the pictures of the meals from the restaurant menus.]]></paragraph>
+		</content>
+		
+		<content>
+		    <heading><![CDATA[<strong>Why ?</strong>]]></heading>
+	        <paragraph><![CDATA[When you travel to foreign countries for business or leisure, so often you are struggling to order the meals because the restaurant menus are in foreign languages and don’t have any pictures to help you.]]></paragraph>
+			<paragraph><![CDATA[With PicMealUp, you don’t need to speak the foreign languages. Just take a picture of the menu, then select the name of the meals and execute the search of the pictures. ]]></paragraph>
+			<paragraph><![CDATA[Thanks to the pictures, you know what the meals look like to. And this helps you to order exactly what you would like to eat.]]></paragraph>
+		</content>
+		
+		<content>
+		    <heading><![CDATA[<strong>Who ?</strong>]]></heading>
+	        <paragraph><![CDATA[As a frequent traveler, I often find myself helpless with the restaurant menus in my hands, for the reasons above.]]></paragraph>
+			<paragraph><![CDATA[So I create PicMealUp to help travelers to find the pictures of the meals so that we know what to order… and discover new taste, new flavor, anytime, anywhere we go and enjoy…]]></paragraph>
+		</content>
+	 </contents>
+	 
+  </aboutpicmealup>
+  
+  <contact>
+       <title><![CDATA[Contact]]></title>
+	   <btnsend><![CDATA[Send]]></btnsend>
+	 <paragraph class="text-center text-bold"><![CDATA[<strong> Please, describe your problem:</strong>]]></paragraph>
+     <inputArea>
+	     <placeholder><![CDATA[Write Message]]></placeholder>
+	 </inputArea>>
+  </contact>
+  
+  <allcontactlists>
+    <title><![CDATA[Contacts]]></title>
+	<noresult><![CDATA[No members in your contact List]]></noresult>
+  </allcontactlists>
+  
+  <faq>
+     <title><![CDATA[FAQ]]></title>
+	 <infotext><![CDATA[PicMealUp supports the Charity Project <a href="javascript:;">www.breakfastforsmile.com</a>]]></infotext>
+	 <accordion>
+	    <panel>
+		   <paneltitle><![CDATA[What is www.breakfastforsmile.com ?]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[In the rural areas of Cambodia, children walk several kilometers on an empty stomach to get to school.]]></paragraph>
+				 <paragraph><![CDATA[They sit in a crowded classroom amidst heat and hunger, eventually losing their attention and concentration.]]></paragraph>
+				 <paragraph><![CDATA[Breakfast For Smile aims to provide each child with a breakfast before school time.]]></paragraph>
+				 <paragraph><![CDATA[The Breakfast For Smile vans deliver delicious breakfasts to children in the rural areas and at parks located in-front of schools.]]></paragraph>
+				 <paragraph><![CDATA[The daily hearty breakfast consists of porridge or noodles, an omelet and fruit.]]></paragraph>
+				 <paragraph><![CDATA[By using PicMealUp, you are also supporting the Charity Project <a href='javascript:;'>www.breakfastforsmile.com</a>.Indeed, we plan to generate, in the near future, the revenue by launching the paid version of PicMealUp or the advertising model. Then after, we commit to give 20% of the revenue to support <a href='javascript:;'>www.breakfastforsmile.com</a>]]></paragraph>
+
+			</panelbody>
+		</panel>
+	 
+	    <panel>
+		    <paneltitle><![CDATA[What is OCR?]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[OCR, Optical character recognition, is the electronic conversion of scanned or photographed images of typewritten or printed text (restaurant menu, ...) into computer-readable text.]]></paragraph>
+			</panelbody>
+		</panel>
+		<panel>
+		    <paneltitle><![CDATA[How do I use PicMealUp?]]></paneltitle>
+			<panelbody>
+			     <paragraph ><![CDATA[To use PicMealUp, it's simple:]]></paragraph>
+				 <lists>
+			        <list><![CDATA[Use your mobile device camera to take the picture of the restaurant menu]]></list>
+			        <list><![CDATA[Convert the scanned menu into computer-readable text]]></list>
+					<list><![CDATA[Define the name of the meal, then execute the search]]></list>
+					<list><![CDATA[View the pictures of the meal and add to your order list]]></list>
+	             </lists>
+			</panelbody>
+		</panel>
+		
+		<panel>
+		    <paneltitle><![CDATA[How do I select the name of the meal for the search?]]></paneltitle>
+			<panelbody>
+				 <lists>
+			        <list><![CDATA[From the scanned menu, press any name of the meals to display the feature "Define | Search & Display Pictures" <div class="clearfix"></div> <img class="img-responsive" src="images/meal-menu.png" />]]></list>
+			        <list><![CDATA[Adjust the selection of the name of the meal]]></list>
+					<list><![CDATA[Press "Search & Display Pictures"]]></list>
+	             </lists>
+			</panelbody>
+		</panel>
+		<panel>
+		    <paneltitle><![CDATA[How do I delete my account?]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[Open PicMealUp and go to PicMealUp Setting > Delete Account]]></paragraph>
+			</panelbody>
+		</panel>
+		
+		<panel>
+		    <paneltitle><![CDATA[How do I report abuse from a contact?]]></paneltitle>
+			<panelbody>
+			     <lists>
+			        <list><![CDATA[Open PicMealUp and go to PicMealUp Chat > Members Nearby]]></list>
+			        <list><![CDATA[Click the name of the Contact]]></list>
+					<list><![CDATA[Click Report Abuse]]></list>
+					<list><![CDATA[Select the type of Report Abuse]]></list>
+	             </lists>
+			     <paragraph><![CDATA[A contact that you have flagged as Report Abuse can not see you in the Members Nearby list nor send you greeting anymore.]]></paragraph>
+			</panelbody>
+		</panel>
+		
+		<panel>
+		    <paneltitle><![CDATA[How do I block or unblock a contact from contacting me?]]></paneltitle>
+			<panelbody>
+			     <lists>
+			        <list><![CDATA[Open PicMealUp and go to PicMealUp Chat > Members Nearby]]></list>
+			        <list><![CDATA[Click the name of the Contact]]></list>
+					<list><![CDATA[Click Report Abuse]]></list>
+					<list><![CDATA[Check the type of Report Abuse to block the contact or Uncheck to unblock the contact]]></list>
+	             </lists>
+			     <paragraph><![CDATA[A contact that you have flagged as Report Abuse can not see you in the Members Nearby list nor send you greeting anymore.]]></paragraph>
+			</panelbody>
+		</panel>
+		
+		<panel>
+		    <paneltitle><![CDATA[I cannot connect to PicMealUp!]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[On rare occasion, you may encounter issues connecting to PicMealUp.]]></paragraph>
+				 <paragraph><![CDATA[This is usually caused by a problem with the internet connection of your mobile device, or a problem with your wireless carrier or Internet Service provider.]]></paragraph>
+				 <paragraph><![CDATA[Most connnections issues can be resolved by checking the settings parameters of your mobile device.
+                                          Mobile device > Setting Wi-Fi]]></paragraph>
+			</panelbody>
+		</panel>
+                                          
+		<panel>
+		    <paneltitle><![CDATA[How can I invite my friends to join PicMealUp?]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[If your friends are not yet using PicMealUp, it is easy to invite them to join in!]]></paragraph>
+				 <paragraph><![CDATA[You can send a PicMealUp invitation via our Tell a Friend / Invite feature.]]></paragraph>
+                 <lists>
+			        <list><![CDATA[Open PicMealUp and go to PicMealUp Setting > Tell A Friend]]></list>
+			        <list><![CDATA[Choose how you would like to invite your friends, by email, message, Facebook or Twitter]]></list>
+	             </lists>
+			</panelbody>
+		</panel>
+	
+		
+		<panel>
+		    <paneltitle><![CDATA[My PicMealUp account has been deactivated!]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[We deactivate accounts if we believe the account activity is in violation of our Terms of Service. Please review our Terms of Service to learn more about the appropriate uses of PicMealUp.!]]></paragraph>
+				 <paragraph><![CDATA[We cannot comment on the individual reasons of each account deactivation. However, specific actions such as the following may eventually result in your account becoming deactivated.]]></paragraph>
+                 <lists>
+			        <list><![CDATA[Sending ads or any other form of commercial solicitation.]]></list>
+					<list><![CDATA[Sending spam or unsolicited messages.]]></list>
+					<list><![CDATA[Submitting content, profile pictures or messages, that are in violation of our Terms of Service such as unlawful, obscene, threatening, harassing, hateful, racially or ethnically offensive or any other inappropriate material.]]></list>
+					<list><![CDATA[Being annoying to other users.]]></list>
+					<list><![CDATA[Being a repeat infringer.]]></list>
+					<list><![CDATA[Using an automated system or an unauthorized / unofficial client application to send messages through PicMealUp.]]></list>
+	             </lists>
+				 <paragraph><![CDATA[Please be aware that we may not issue a warning before deactivating your account. If you think your account was deactivated by mistake you can email us and we will look into your case.]]></paragraph>
+				 <paragraph><![CDATA[72 hours after your account has been deactivated, your friends will no longer be able to see you in PicMealUp.]]></paragraph>
+				 <paragraph><![CDATA[Please note that PicMealUp reserves the right to refuse service for any reason without prior notice, at our sole discretion.]]></paragraph>
+			</panelbody>
+		</panel>
+		
+		<panel>
+		    <paneltitle><![CDATA[Is it free to search the pictures of the meals or send messages over PicMealUp?]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[Provided you have an adequate internet data plan for your mobile phone, it is free to search the pictures of the meals or send and receive messages and media over PicMealUp.]]></paragraph>
+				 <paragraph><![CDATA[PicMealUp uses your phone  internet connection to search the pictures of the meal or to send and receive messages, pictures, audio, video, location, and contacts. As long as your phone is not roaming and you have not exceeded your data limit, activities over PicMealUp should not cost you extra]]></paragraph>
+				 <paragraph><![CDATA[If you are concerned about data usage, we recommend that you use a Wi-Fi connection, if possible]]></paragraph>
+			</panelbody>
+		</panel>
+		
+		<panel>
+		    <paneltitle><![CDATA[Which Apple devices are supported?]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[PicMealUp for iPhone requires iOS 4.3 or later. For the best experience, we recommend you use the latest version of iOS available for your phone. Please read this Apple Support article (http://support.apple.com/kb/HT4623) to learn how to update your iPhone software]]></paragraph>
+				 <paragraph><![CDATA[Please note: iPod devices are not supported at this time.]]></paragraph>
+
+			</panelbody>
+		</panel>
+		<panel>
+		   <paneltitle><![CDATA[PicMealUp Chat is deleted every 24 hours!]]></paneltitle>
+			<panelbody>
+			     <paragraph><![CDATA[When you send or receive messages, we temporarily store the contents of those messages on the devices of recipients.]]></paragraph>
+				 <paragraph><![CDATA[Once all recipients have viewed a message, we automatically delete the message from PicMealUp app on the recipients devices every 24 hours.]]></paragraph>
+				 <paragraph><![CDATA[Additionally, we cannot guarantee that deletion of any message always occurs within a particular timeframe. We also cannot prevent others from making copies of your messages (e.g., by taking a screenshot). If we are able to detect that the recipient has captured a screenshot of a chat that you send, we will attempt to notify you.]]></paragraph>
+				 <paragraph><![CDATA[You should not use PicMealUp to send messages if you want to be certain that the recipient cannot keep a copy.]]></paragraph>
+
+			</panelbody>
+		</panel>
+		
+	
+		
+	 </accordion>
+  </faq> 
+ </section>
+ <tooltip>
+     <txtdefine><![CDATA[Define]]></txtdefine>
+	 <txtsearch><![CDATA[Search &amp; display Pictures]]></txtsearch>
+	 <inputtxt>
+	   <placeholder><![CDATA[]]></placeholder>
+	 </inputtxt>
+  </tooltip>
+  <jAlert>
+     <Messages>
+	   <msg1><![CDATA[Are you sure you want to delete your account ?]]></msg1>
+	   <msg2><![CDATA[Are you sure you want to delete all the conversation?]]></msg2>
+	   <msg3><![CDATA[Are you sure you want to delete this selected meal?]]></msg3>
+	   <msg4><![CDATA[Are you sure you want to delete this entry?]]></msg4>
+       <msg5><![CDATA[Are you sure you want to remove this member from chat list?]]></msg5>
+       <msg6><![CDATA[PicMealUp is unable to locate your position.]]></msg6>
+       <msg7><![CDATA[Are you sure you want to remove this member from Contact?]]></msg7>
+	 </Messages>
+     <alertmessage><![CDATA[Message]]></alertmessage>
+     <confirmmessage><![CDATA[Confirmation]]></confirmmessage>
+     
+	  <okbutton><![CDATA[Ok]]></okbutton>
+	 <cancelbutton><![CDATA[Cancel]]></cancelbutton>
+  </jAlert>
+ </structure>
+
+
+
+
+
+
+
+
+
+
+
+
